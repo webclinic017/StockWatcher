@@ -1,0 +1,868 @@
+DEBUG 2021-07-19 15:01:39,795 middleware.py.<module>:13 - Reading .env file at: /.env
+DEBUG 2021-07-19 15:01:40,423 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-07-19 15:06:20,763 middleware.py.<module>:13 - Reading .env file at: /.env
+DEBUG 2021-07-19 15:06:21,292 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-07-19 15:06:41,614 middleware.py.<module>:13 - Reading .env file at: /.env
+DEBUG 2021-07-19 15:06:42,369 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-07-19 15:11:56,077 middleware.py.<module>:13 - Reading .env file at: /.env
+DEBUG 2021-07-19 15:11:57,043 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-07-19 15:12:05,915 middleware.py.<module>:13 - Reading .env file at: /.env
+DEBUG 2021-07-19 15:12:06,547 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-07-19 15:15:31,499 middleware.py.<module>:13 - Reading .env file at: /.env
+DEBUG 2021-07-19 15:15:32,221 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-07-19 15:15:42,070 middleware.py.<module>:13 - Reading .env file at: /.env
+DEBUG 2021-07-19 15:15:42,407 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-07-19 15:15:50,002 middleware.py.<module>:13 - Reading .env file at: /.env
+DEBUG 2021-07-19 15:15:50,542 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-07-19 15:16:18,275 middleware.py.<module>:13 - Reading .env file at: /.env
+DEBUG 2021-07-19 15:16:18,602 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-07-19 15:18:03,752 middleware.py.<module>:13 - Reading .env file at: /.env
+DEBUG 2021-07-19 15:18:04,367 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-07-19 15:19:01,245 middleware.py.<module>:13 - Reading .env file at: /.env
+DEBUG 2021-07-19 15:19:01,577 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-07-19 15:19:22,299 middleware.py.<module>:13 - Reading .env file at: /.env
+DEBUG 2021-07-19 15:19:22,602 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-07-19 15:20:59,676 middleware.py.<module>:13 - Reading .env file at: /.env
+DEBUG 2021-07-19 15:21:06,530 middleware.py.<module>:13 - Reading .env file at: /.env
+DEBUG 2021-07-19 15:21:06,859 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-07-19 15:21:31,016 middleware.py.<module>:13 - Reading .env file at: /.env
+DEBUG 2021-07-19 15:21:31,360 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-07-19 15:21:59,070 middleware.py.<module>:13 - Reading .env file at: /.env
+DEBUG 2021-07-19 15:21:59,429 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-07-19 15:41:12,033 middleware.py.<module>:13 - Reading .env file at: /.env
+DEBUG 2021-07-19 15:41:12,857 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-07-20 09:29:14,350 middleware.py.<module>:13 - Reading .env file at: /.env
+DEBUG 2021-07-20 09:29:15,637 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+INFO 2021-07-20 09:29:20,832 tasks.py.refresh_symbols:50 - Keeping Heroku alive
+INFO 2021-07-20 09:30:00,068 tasks.py.refresh_symbols:50 - Keeping Heroku alive
+DEBUG 2021-07-20 09:30:35,232 middleware.py.<module>:13 - Reading .env file at: /.env
+DEBUG 2021-07-20 09:30:35,774 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+INFO 2021-07-20 10:00:00,710 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'VUZI']
+INFO 2021-07-20 10:30:00,053 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'VUZI']
+INFO 2021-07-20 11:00:00,069 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'VUZI']
+INFO 2021-07-20 11:30:11,796 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'VUZI']
+INFO 2021-07-20 12:00:00,090 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'VUZI']
+DEBUG 2021-07-20 12:49:50,073 middleware.py.<module>:13 - Reading .env file at: /.env
+DEBUG 2021-07-20 12:49:50,491 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-07-20 12:50:34,203 middleware.py.<module>:13 - Reading .env file at: /.env
+DEBUG 2021-07-20 12:50:34,592 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+INFO 2021-07-20 13:00:00,992 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'VUZI']
+INFO 2021-07-20 13:30:00,051 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'VUZI']
+INFO 2021-07-20 14:00:00,055 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'VUZI']
+INFO 2021-07-20 14:30:00,051 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'VUZI']
+INFO 2021-07-20 15:00:00,056 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'VUZI']
+INFO 2021-07-20 15:30:00,074 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'VUZI']
+DEBUG 2021-07-21 09:05:31,586 middleware.py.<module>:13 - Reading .env file at: /.env
+DEBUG 2021-07-21 09:05:32,225 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-07-21 09:07:24,439 middleware.py.<module>:13 - Reading .env file at: /.env
+DEBUG 2021-07-21 09:07:25,372 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-07-21 10:20:42,013 middleware.py.<module>:13 - Reading .env file at: /.env
+DEBUG 2021-07-21 10:20:42,566 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+INFO 2021-07-21 10:30:00,080 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'VUZI']
+INFO 2021-07-21 11:00:00,005 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'VUZI']
+INFO 2021-07-21 11:30:00,004 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'VUZI']
+INFO 2021-07-21 12:00:00,004 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'VUZI']
+INFO 2021-07-21 12:30:00,006 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'VUZI']
+DEBUG 2021-07-21 13:05:07,042 middleware.py.<module>:13 - Reading .env file at: /.env
+DEBUG 2021-07-21 13:05:07,625 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+INFO 2021-07-21 13:05:09,628 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'VUZI']
+INFO 2021-07-21 13:30:00,011 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'VUZI']
+INFO 2021-07-21 14:00:00,013 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'VUZI']
+INFO 2021-07-21 14:30:00,050 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'VUZI']
+DEBUG 2021-07-21 14:46:40,902 middleware.py.<module>:13 - Reading .env file at: /.env
+DEBUG 2021-07-21 14:46:41,533 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+INFO 2021-07-21 15:00:00,070 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'VUZI']
+INFO 2021-07-21 15:30:00,009 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'VUZI']
+DEBUG 2021-07-22 09:11:45,570 middleware.py.<module>:13 - Reading .env file at: /.env
+DEBUG 2021-07-22 09:11:46,277 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+INFO 2021-07-22 09:11:48,112 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'VUZI']
+INFO 2021-07-22 09:30:00,010 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'VUZI']
+INFO 2021-07-22 10:00:00,008 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'VUZI']
+INFO 2021-07-22 10:30:00,004 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'VUZI']
+DEBUG 2021-07-22 10:44:22,546 middleware.py.<module>:13 - Reading .env file at: /.env
+DEBUG 2021-07-22 10:44:23,047 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+INFO 2021-07-22 11:00:00,005 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'VUZI']
+DEBUG 2021-07-22 11:29:53,767 middleware.py.<module>:13 - Reading .env file at: /.env
+DEBUG 2021-07-22 11:29:54,530 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+INFO 2021-07-22 11:30:00,005 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'VUZI']
+DEBUG 2021-07-22 11:30:19,265 middleware.py.<module>:13 - Reading .env file at: /.env
+DEBUG 2021-07-22 11:30:19,563 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-07-22 11:39:04,375 middleware.py.<module>:13 - Reading .env file at: /.env
+DEBUG 2021-07-22 11:39:04,704 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-07-22 11:58:05,372 middleware.py.<module>:13 - Reading .env file at: /.env
+DEBUG 2021-07-22 11:58:05,705 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+INFO 2021-07-22 12:00:00,005 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'VUZI']
+DEBUG 2021-07-22 12:15:38,124 middleware.py.<module>:13 - Reading .env file at: /.env
+DEBUG 2021-07-22 12:15:38,456 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-07-22 12:16:14,554 middleware.py.<module>:13 - Reading .env file at: /.env
+DEBUG 2021-07-22 12:16:14,844 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-07-22 12:17:23,614 middleware.py.<module>:13 - Reading .env file at: /.env
+DEBUG 2021-07-22 12:17:24,086 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-07-22 12:19:42,481 middleware.py.<module>:13 - Reading .env file at: /.env
+DEBUG 2021-07-22 12:19:42,781 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-07-22 12:21:28,046 middleware.py.<module>:13 - Reading .env file at: /.env
+DEBUG 2021-07-22 12:21:28,367 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-07-22 12:22:22,176 middleware.py.<module>:13 - Reading .env file at: /.env
+DEBUG 2021-07-22 12:22:22,492 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-07-22 12:23:15,253 middleware.py.<module>:13 - Reading .env file at: /.env
+DEBUG 2021-07-22 12:23:15,559 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-07-22 12:24:15,475 middleware.py.<module>:13 - Reading .env file at: /.env
+DEBUG 2021-07-22 12:24:15,761 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-07-22 12:24:40,842 middleware.py.<module>:13 - Reading .env file at: /.env
+DEBUG 2021-07-22 12:24:41,355 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-07-22 12:25:32,300 middleware.py.<module>:13 - Reading .env file at: /.env
+DEBUG 2021-07-22 12:25:32,635 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-07-22 12:25:58,304 middleware.py.<module>:13 - Reading .env file at: /.env
+DEBUG 2021-07-22 12:25:58,710 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-07-22 12:26:26,372 middleware.py.<module>:13 - Reading .env file at: /.env
+DEBUG 2021-07-22 12:26:26,688 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-07-22 12:27:35,258 middleware.py.<module>:13 - Reading .env file at: /.env
+DEBUG 2021-07-22 12:27:35,823 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-07-22 12:28:05,919 middleware.py.<module>:13 - Reading .env file at: /.env
+DEBUG 2021-07-22 12:28:06,268 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-07-22 12:28:19,529 middleware.py.<module>:13 - Reading .env file at: /.env
+DEBUG 2021-07-22 12:28:20,077 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-07-22 12:29:09,700 middleware.py.<module>:13 - Reading .env file at: /.env
+DEBUG 2021-07-22 12:29:10,041 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+INFO 2021-07-22 12:30:00,007 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'VUZI']
+INFO 2021-07-22 13:00:00,009 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'VUZI']
+INFO 2021-07-22 13:30:00,008 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'VUZI']
+INFO 2021-07-22 14:00:00,009 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'VUZI']
+INFO 2021-07-22 14:30:00,053 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'VUZI']
+INFO 2021-07-22 15:00:00,051 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'VUZI']
+INFO 2021-07-22 15:30:00,024 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'VUZI']
+DEBUG 2021-07-23 09:03:21,383 middleware.py.<module>:13 - Reading .env file at: /.env
+DEBUG 2021-07-23 09:03:21,945 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+INFO 2021-07-23 09:03:23,975 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH']
+DEBUG 2021-07-23 09:03:28,207 middleware.py.<module>:13 - Reading .env file at: /.env
+DEBUG 2021-07-23 09:03:28,523 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-07-23 09:03:59,120 middleware.py.<module>:13 - Reading .env file at: /.env
+DEBUG 2021-07-23 09:03:59,406 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+INFO 2021-07-23 09:30:00,004 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH']
+DEBUG 2021-07-23 09:38:55,944 middleware.py.<module>:13 - Reading .env file at: /.env
+DEBUG 2021-07-23 09:38:56,250 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+INFO 2021-07-23 10:00:00,006 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH']
+INFO 2021-07-23 10:30:00,023 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH']
+INFO 2021-07-23 11:00:00,007 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH']
+INFO 2021-07-23 11:30:00,007 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH']
+INFO 2021-07-23 12:00:00,009 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH']
+INFO 2021-07-23 12:30:00,012 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH']
+INFO 2021-07-23 13:00:00,014 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH']
+INFO 2021-07-23 13:30:00,009 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH']
+INFO 2021-07-23 14:00:00,010 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH']
+INFO 2021-07-23 14:30:00,004 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH']
+INFO 2021-07-23 15:00:00,007 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH']
+INFO 2021-07-23 15:30:00,007 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH']
+DEBUG 2021-07-26 09:06:56,159 middleware.py.<module>:13 - Reading .env file at: /.env
+DEBUG 2021-07-26 09:06:56,979 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+INFO 2021-07-26 09:06:59,186 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH']
+DEBUG 2021-07-26 09:07:42,151 middleware.py.<module>:13 - Reading .env file at: /.env
+DEBUG 2021-07-26 09:07:42,444 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-07-26 09:09:00,794 middleware.py.<module>:13 - Reading .env file at: /.env
+DEBUG 2021-07-26 09:09:01,081 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+INFO 2021-07-26 09:30:00,013 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH']
+INFO 2021-07-26 10:00:00,005 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH']
+INFO 2021-07-26 10:30:00,004 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH']
+INFO 2021-07-26 11:00:00,015 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH']
+INFO 2021-07-26 11:30:00,012 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH']
+INFO 2021-07-26 12:00:00,004 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH']
+INFO 2021-07-26 12:30:00,007 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH']
+INFO 2021-07-26 13:00:00,007 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH']
+INFO 2021-07-26 13:30:00,026 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH']
+INFO 2021-07-26 14:00:00,008 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH']
+INFO 2021-07-26 14:30:00,034 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH']
+INFO 2021-07-26 15:00:00,014 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH']
+INFO 2021-07-26 15:30:00,011 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH']
+DEBUG 2021-07-27 09:04:25,371 middleware.py.<module>:13 - Reading .env file at: /.env
+DEBUG 2021-07-27 09:04:25,763 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+INFO 2021-07-27 09:04:27,424 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH']
+DEBUG 2021-07-27 09:04:27,716 middleware.py.<module>:13 - Reading .env file at: /.env
+DEBUG 2021-07-27 09:04:33,374 middleware.py.<module>:13 - Reading .env file at: /.env
+DEBUG 2021-07-27 09:04:33,655 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+INFO 2021-07-27 09:30:00,042 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH']
+INFO 2021-07-27 10:00:00,005 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH']
+DEBUG 2021-07-27 10:02:24,302 middleware.py.<module>:13 - Reading .env file at: /.env
+DEBUG 2021-07-27 10:02:25,142 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-07-27 10:02:28,989 middleware.py.<module>:13 - Reading .env file at: /.env
+DEBUG 2021-07-27 10:02:29,506 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-07-27 10:02:36,200 middleware.py.<module>:13 - Reading .env file at: /.env
+DEBUG 2021-07-27 10:02:36,933 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-07-27 10:08:50,940 middleware.py.<module>:13 - Reading .env file at: /.env
+DEBUG 2021-07-27 10:08:51,415 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-07-27 10:09:00,563 middleware.py.<module>:13 - Reading .env file at: /.env
+DEBUG 2021-07-27 10:09:00,879 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+INFO 2021-07-27 10:30:00,125 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH']
+INFO 2021-07-27 11:00:00,011 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH']
+DEBUG 2021-07-27 11:00:43,178 middleware.py.__init__:51 - Initializing messaging client
+DEBUG 2021-07-27 11:00:43,180 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-07-27 11:00:43,181 middleware.py.__init__:63 - Twilio client initialized
+INFO 2021-07-27 11:30:00,011 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH']
+DEBUG 2021-07-27 11:30:41,688 middleware.py.__init__:51 - Initializing messaging client
+DEBUG 2021-07-27 11:30:41,693 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-07-27 11:30:41,696 middleware.py.__init__:63 - Twilio client initialized
+DEBUG 2021-07-27 11:39:57,589 middleware.py.<module>:13 - Reading .env file at: /.env
+DEBUG 2021-07-27 11:39:58,128 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+INFO 2021-07-27 12:00:00,017 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH']
+DEBUG 2021-07-27 12:00:41,830 middleware.py.__init__:51 - Initializing messaging client
+DEBUG 2021-07-27 12:00:41,831 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-07-27 12:00:41,832 middleware.py.__init__:63 - Twilio client initialized
+INFO 2021-07-27 12:53:09,423 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH']
+INFO 2021-07-27 13:20:25,778 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH']
+DEBUG 2021-07-27 13:21:06,466 middleware.py.__init__:51 - Initializing messaging client
+DEBUG 2021-07-27 13:21:06,467 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-07-27 13:21:06,469 middleware.py.__init__:63 - Twilio client initialized
+INFO 2021-07-27 13:30:00,005 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH']
+DEBUG 2021-07-27 13:30:42,297 middleware.py.__init__:51 - Initializing messaging client
+DEBUG 2021-07-27 13:30:42,298 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-07-27 13:30:42,299 middleware.py.__init__:63 - Twilio client initialized
+INFO 2021-07-27 14:00:00,006 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH']
+INFO 2021-07-27 14:30:00,004 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH']
+INFO 2021-07-27 15:00:00,010 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH']
+INFO 2021-07-27 15:30:00,004 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH']
+DEBUG 2021-07-28 08:51:40,496 middleware.py.<module>:13 - Reading .env file at: /.env
+DEBUG 2021-07-28 08:51:40,978 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-07-28 08:52:12,943 middleware.py.<module>:13 - Reading .env file at: /.env
+DEBUG 2021-07-28 08:52:13,231 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-07-28 08:52:18,195 middleware.py.<module>:13 - Reading .env file at: /.env
+DEBUG 2021-07-28 08:52:18,481 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+INFO 2021-07-28 08:52:20,164 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH']
+INFO 2021-07-28 09:00:00,007 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH']
+INFO 2021-07-28 09:30:00,008 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH']
+INFO 2021-07-28 10:00:00,049 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH']
+INFO 2021-07-28 10:30:00,015 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH']
+INFO 2021-07-28 11:00:00,005 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH']
+INFO 2021-07-28 11:30:00,042 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH']
+INFO 2021-07-28 12:00:00,034 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH']
+INFO 2021-07-28 12:30:00,017 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH']
+INFO 2021-07-28 13:00:00,003 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH']
+INFO 2021-07-28 13:30:00,004 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH']
+INFO 2021-07-28 14:00:00,006 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH']
+INFO 2021-07-28 14:30:00,006 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH']
+INFO 2021-07-28 15:00:00,041 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH']
+INFO 2021-07-28 15:30:00,008 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH']
+INFO 2021-07-28 16:00:00,005 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH']
+INFO 2021-07-28 16:30:00,022 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH']
+INFO 2021-07-29 09:00:00,008 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH']
+INFO 2021-07-29 09:30:00,030 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH']
+INFO 2021-07-29 10:00:00,004 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH']
+INFO 2021-07-29 10:30:00,023 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH']
+INFO 2021-07-29 11:00:00,239 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH']
+INFO 2021-07-29 11:30:00,004 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH']
+INFO 2021-07-29 12:00:00,013 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH']
+INFO 2021-07-29 12:30:00,005 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH']
+INFO 2021-07-29 13:00:00,005 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH']
+INFO 2021-07-29 13:30:00,004 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH']
+INFO 2021-07-29 14:00:00,010 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH']
+INFO 2021-07-29 14:30:00,005 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH']
+INFO 2021-07-29 15:00:00,003 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH']
+INFO 2021-07-29 15:30:00,006 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH']
+INFO 2021-07-29 16:00:00,053 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH']
+INFO 2021-07-29 16:30:00,010 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH']
+INFO 2021-07-30 09:00:00,006 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH']
+INFO 2021-07-30 09:30:00,005 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH']
+INFO 2021-07-30 10:00:00,004 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH']
+INFO 2021-07-30 10:30:00,008 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH']
+INFO 2021-07-30 11:00:00,007 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH']
+INFO 2021-07-30 11:30:00,179 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH']
+INFO 2021-07-30 12:00:00,005 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH']
+INFO 2021-07-30 12:30:00,009 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH']
+INFO 2021-07-30 13:00:00,005 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH']
+INFO 2021-07-30 13:30:00,005 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH']
+INFO 2021-07-30 14:00:00,021 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH']
+INFO 2021-07-30 14:30:00,022 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH']
+INFO 2021-07-30 15:00:00,009 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH']
+INFO 2021-07-30 15:30:00,004 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH']
+INFO 2021-07-30 16:00:00,007 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH']
+DEBUG 2021-08-03 09:06:02,295 middleware.py.<module>:13 - Reading .env file at: /.env
+DEBUG 2021-08-03 09:06:02,933 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+INFO 2021-08-03 09:06:05,173 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK']
+DEBUG 2021-08-03 09:06:08,083 middleware.py.<module>:13 - Reading .env file at: /.env
+DEBUG 2021-08-03 09:06:08,404 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-08-03 09:09:44,616 middleware.py.<module>:13 - Reading .env file at: /.env
+DEBUG 2021-08-03 09:09:44,935 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+INFO 2021-08-03 09:30:00,011 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK']
+INFO 2021-08-03 10:00:00,080 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK']
+DEBUG 2021-08-03 10:00:49,590 middleware.py.__init__:51 - Initializing messaging client
+DEBUG 2021-08-03 10:00:49,591 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-08-03 10:00:49,593 middleware.py.__init__:63 - Twilio client initialized
+INFO 2021-08-03 10:30:00,006 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK']
+DEBUG 2021-08-03 10:30:49,480 middleware.py.__init__:51 - Initializing messaging client
+DEBUG 2021-08-03 10:30:49,482 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-08-03 10:30:49,483 middleware.py.__init__:63 - Twilio client initialized
+INFO 2021-08-03 11:00:00,003 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK']
+DEBUG 2021-08-03 11:01:03,658 middleware.py.__init__:51 - Initializing messaging client
+DEBUG 2021-08-03 11:01:03,659 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-08-03 11:01:03,660 middleware.py.__init__:63 - Twilio client initialized
+INFO 2021-08-03 11:30:00,007 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK']
+DEBUG 2021-08-03 11:30:49,452 middleware.py.__init__:51 - Initializing messaging client
+DEBUG 2021-08-03 11:30:49,453 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-08-03 11:30:49,454 middleware.py.__init__:63 - Twilio client initialized
+INFO 2021-08-03 12:00:00,006 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK']
+DEBUG 2021-08-03 12:00:49,718 middleware.py.__init__:51 - Initializing messaging client
+DEBUG 2021-08-03 12:00:49,720 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-08-03 12:00:49,721 middleware.py.__init__:63 - Twilio client initialized
+INFO 2021-08-03 12:30:00,009 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK']
+DEBUG 2021-08-03 12:30:49,279 middleware.py.__init__:51 - Initializing messaging client
+DEBUG 2021-08-03 12:30:49,280 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-08-03 12:30:49,281 middleware.py.__init__:63 - Twilio client initialized
+INFO 2021-08-03 13:00:00,021 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK']
+DEBUG 2021-08-03 13:00:49,029 middleware.py.__init__:51 - Initializing messaging client
+DEBUG 2021-08-03 13:00:49,030 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-08-03 13:00:49,032 middleware.py.__init__:63 - Twilio client initialized
+INFO 2021-08-03 13:30:00,006 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK']
+DEBUG 2021-08-03 13:30:49,984 middleware.py.__init__:51 - Initializing messaging client
+DEBUG 2021-08-03 13:30:49,986 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-08-03 13:30:49,987 middleware.py.__init__:63 - Twilio client initialized
+INFO 2021-08-03 14:00:00,006 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK']
+DEBUG 2021-08-03 14:00:49,455 middleware.py.__init__:51 - Initializing messaging client
+DEBUG 2021-08-03 14:00:49,456 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-08-03 14:00:49,457 middleware.py.__init__:63 - Twilio client initialized
+INFO 2021-08-03 14:30:00,014 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK']
+DEBUG 2021-08-03 14:30:49,146 middleware.py.__init__:51 - Initializing messaging client
+DEBUG 2021-08-03 14:30:49,147 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-08-03 14:30:49,148 middleware.py.__init__:63 - Twilio client initialized
+INFO 2021-08-03 15:00:00,013 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK']
+DEBUG 2021-08-03 15:00:49,743 middleware.py.__init__:51 - Initializing messaging client
+DEBUG 2021-08-03 15:00:49,744 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-08-03 15:00:49,745 middleware.py.__init__:63 - Twilio client initialized
+INFO 2021-08-03 15:30:00,028 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK']
+DEBUG 2021-08-03 15:30:49,275 middleware.py.__init__:51 - Initializing messaging client
+DEBUG 2021-08-03 15:30:49,277 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-08-03 15:30:49,278 middleware.py.__init__:63 - Twilio client initialized
+INFO 2021-08-03 16:00:00,057 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK']
+DEBUG 2021-08-03 16:00:50,144 middleware.py.__init__:51 - Initializing messaging client
+DEBUG 2021-08-03 16:00:50,145 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-08-03 16:00:50,146 middleware.py.__init__:63 - Twilio client initialized
+INFO 2021-08-03 16:30:00,025 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK']
+DEBUG 2021-08-03 16:30:49,530 middleware.py.__init__:51 - Initializing messaging client
+DEBUG 2021-08-03 16:30:49,532 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-08-03 16:30:49,533 middleware.py.__init__:63 - Twilio client initialized
+DEBUG 2021-08-03 18:00:24,366 middleware.py.<module>:13 - Reading .env file at: /.env
+DEBUG 2021-08-03 18:00:24,943 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-08-03 18:00:37,443 middleware.py.<module>:13 - Reading .env file at: /.env
+DEBUG 2021-08-03 18:00:37,771 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+INFO 2021-08-04 09:00:00,005 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK']
+DEBUG 2021-08-04 09:00:50,147 middleware.py.__init__:51 - Initializing messaging client
+DEBUG 2021-08-04 09:00:50,149 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-08-04 09:00:50,151 middleware.py.__init__:63 - Twilio client initialized
+INFO 2021-08-04 09:30:00,013 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK']
+DEBUG 2021-08-04 09:30:49,672 middleware.py.__init__:51 - Initializing messaging client
+DEBUG 2021-08-04 09:30:49,673 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-08-04 09:30:49,674 middleware.py.__init__:63 - Twilio client initialized
+INFO 2021-08-04 10:00:00,024 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK']
+DEBUG 2021-08-04 10:00:49,592 middleware.py.__init__:51 - Initializing messaging client
+DEBUG 2021-08-04 10:00:49,592 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-08-04 10:00:49,593 middleware.py.__init__:63 - Twilio client initialized
+INFO 2021-08-04 10:30:00,021 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK']
+DEBUG 2021-08-04 10:30:49,409 middleware.py.__init__:51 - Initializing messaging client
+DEBUG 2021-08-04 10:30:49,410 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-08-04 10:30:49,412 middleware.py.__init__:63 - Twilio client initialized
+INFO 2021-08-04 11:00:00,017 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK']
+DEBUG 2021-08-04 11:00:49,836 middleware.py.__init__:51 - Initializing messaging client
+DEBUG 2021-08-04 11:00:49,838 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-08-04 11:00:49,839 middleware.py.__init__:63 - Twilio client initialized
+INFO 2021-08-04 11:30:00,016 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK']
+DEBUG 2021-08-04 11:30:49,160 middleware.py.__init__:51 - Initializing messaging client
+DEBUG 2021-08-04 11:30:49,162 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-08-04 11:30:49,163 middleware.py.__init__:63 - Twilio client initialized
+INFO 2021-08-04 12:00:00,018 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK']
+DEBUG 2021-08-04 12:00:49,919 middleware.py.__init__:51 - Initializing messaging client
+DEBUG 2021-08-04 12:00:49,919 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-08-04 12:00:49,921 middleware.py.__init__:63 - Twilio client initialized
+INFO 2021-08-04 12:30:00,022 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK']
+DEBUG 2021-08-04 12:30:49,845 middleware.py.__init__:51 - Initializing messaging client
+DEBUG 2021-08-04 12:30:49,846 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-08-04 12:30:49,846 middleware.py.__init__:63 - Twilio client initialized
+INFO 2021-08-04 13:00:00,005 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK']
+DEBUG 2021-08-04 13:00:49,367 middleware.py.__init__:51 - Initializing messaging client
+DEBUG 2021-08-04 13:00:49,369 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-08-04 13:00:49,371 middleware.py.__init__:63 - Twilio client initialized
+INFO 2021-08-04 13:30:00,010 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK']
+DEBUG 2021-08-04 13:30:49,566 middleware.py.__init__:51 - Initializing messaging client
+DEBUG 2021-08-04 13:30:49,567 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-08-04 13:30:49,576 middleware.py.__init__:63 - Twilio client initialized
+INFO 2021-08-04 14:00:00,010 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK']
+DEBUG 2021-08-04 14:00:49,171 middleware.py.__init__:51 - Initializing messaging client
+DEBUG 2021-08-04 14:00:49,172 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-08-04 14:00:49,173 middleware.py.__init__:63 - Twilio client initialized
+INFO 2021-08-04 14:30:00,015 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK']
+DEBUG 2021-08-04 14:30:49,542 middleware.py.__init__:51 - Initializing messaging client
+DEBUG 2021-08-04 14:30:49,543 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-08-04 14:30:49,544 middleware.py.__init__:63 - Twilio client initialized
+INFO 2021-08-04 15:00:00,006 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK']
+DEBUG 2021-08-04 15:00:49,173 middleware.py.__init__:51 - Initializing messaging client
+DEBUG 2021-08-04 15:00:49,175 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-08-04 15:00:49,176 middleware.py.__init__:63 - Twilio client initialized
+DEBUG 2021-08-04 15:23:45,595 middleware.py.<module>:13 - Reading .env file at: /.env
+DEBUG 2021-08-04 15:23:46,052 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+INFO 2021-08-04 15:30:00,015 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK']
+DEBUG 2021-08-04 15:30:50,145 middleware.py.__init__:51 - Initializing messaging client
+DEBUG 2021-08-04 15:30:50,146 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-08-04 15:30:50,148 middleware.py.__init__:63 - Twilio client initialized
+INFO 2021-08-04 16:00:00,005 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK']
+DEBUG 2021-08-04 16:00:50,309 middleware.py.__init__:51 - Initializing messaging client
+DEBUG 2021-08-04 16:00:50,311 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-08-04 16:00:50,312 middleware.py.__init__:63 - Twilio client initialized
+INFO 2021-08-04 16:30:00,010 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK']
+DEBUG 2021-08-04 16:30:50,136 middleware.py.__init__:51 - Initializing messaging client
+DEBUG 2021-08-04 16:30:50,137 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-08-04 16:30:50,138 middleware.py.__init__:63 - Twilio client initialized
+INFO 2021-08-05 09:00:00,011 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK']
+DEBUG 2021-08-05 09:00:49,502 middleware.py.__init__:51 - Initializing messaging client
+DEBUG 2021-08-05 09:00:49,503 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-08-05 09:00:49,504 middleware.py.__init__:63 - Twilio client initialized
+INFO 2021-08-05 09:30:00,016 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK']
+DEBUG 2021-08-05 09:30:49,739 middleware.py.__init__:51 - Initializing messaging client
+DEBUG 2021-08-05 09:30:49,741 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-08-05 09:30:49,744 middleware.py.__init__:63 - Twilio client initialized
+INFO 2021-08-05 10:00:00,007 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK']
+DEBUG 2021-08-05 10:00:51,717 middleware.py.__init__:51 - Initializing messaging client
+DEBUG 2021-08-05 10:00:51,718 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-08-05 10:00:51,719 middleware.py.__init__:63 - Twilio client initialized
+DEBUG 2021-08-05 10:06:58,088 middleware.py.<module>:13 - Reading .env file at: /.env
+DEBUG 2021-08-05 10:06:58,532 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+INFO 2021-08-05 10:30:00,129 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+DEBUG 2021-08-05 10:30:57,250 middleware.py.__init__:51 - Initializing messaging client
+DEBUG 2021-08-05 10:30:57,251 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-08-05 10:30:57,252 middleware.py.__init__:63 - Twilio client initialized
+INFO 2021-08-05 11:00:00,089 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+DEBUG 2021-08-05 11:00:57,381 middleware.py.__init__:51 - Initializing messaging client
+DEBUG 2021-08-05 11:00:57,382 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-08-05 11:00:57,383 middleware.py.__init__:63 - Twilio client initialized
+INFO 2021-08-05 11:30:00,012 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+DEBUG 2021-08-05 11:30:57,952 middleware.py.__init__:51 - Initializing messaging client
+DEBUG 2021-08-05 11:30:57,952 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-08-05 11:30:57,953 middleware.py.__init__:63 - Twilio client initialized
+INFO 2021-08-05 12:00:00,004 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+DEBUG 2021-08-05 12:00:57,898 middleware.py.__init__:51 - Initializing messaging client
+DEBUG 2021-08-05 12:00:57,898 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-08-05 12:00:57,900 middleware.py.__init__:63 - Twilio client initialized
+INFO 2021-08-05 12:30:00,005 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+DEBUG 2021-08-05 12:30:57,794 middleware.py.__init__:51 - Initializing messaging client
+DEBUG 2021-08-05 12:30:57,795 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-08-05 12:30:57,796 middleware.py.__init__:63 - Twilio client initialized
+INFO 2021-08-05 13:00:00,007 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+DEBUG 2021-08-05 13:00:57,130 middleware.py.__init__:51 - Initializing messaging client
+DEBUG 2021-08-05 13:00:57,131 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-08-05 13:00:57,132 middleware.py.__init__:63 - Twilio client initialized
+INFO 2021-08-05 13:30:00,012 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+DEBUG 2021-08-05 13:30:57,924 middleware.py.__init__:51 - Initializing messaging client
+DEBUG 2021-08-05 13:30:57,925 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-08-05 13:30:57,926 middleware.py.__init__:63 - Twilio client initialized
+INFO 2021-08-05 14:00:00,008 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+DEBUG 2021-08-05 14:00:57,835 middleware.py.__init__:51 - Initializing messaging client
+DEBUG 2021-08-05 14:00:57,837 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-08-05 14:00:57,838 middleware.py.__init__:63 - Twilio client initialized
+INFO 2021-08-05 14:30:00,007 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+DEBUG 2021-08-05 14:30:57,901 middleware.py.__init__:51 - Initializing messaging client
+DEBUG 2021-08-05 14:30:57,903 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-08-05 14:30:57,904 middleware.py.__init__:63 - Twilio client initialized
+INFO 2021-08-05 15:00:00,005 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+DEBUG 2021-08-05 15:00:58,068 middleware.py.__init__:51 - Initializing messaging client
+DEBUG 2021-08-05 15:00:58,069 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-08-05 15:00:58,070 middleware.py.__init__:63 - Twilio client initialized
+INFO 2021-08-05 15:30:00,010 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+DEBUG 2021-08-05 15:30:57,791 middleware.py.__init__:51 - Initializing messaging client
+DEBUG 2021-08-05 15:30:57,793 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-08-05 15:30:57,794 middleware.py.__init__:63 - Twilio client initialized
+INFO 2021-08-05 16:00:00,004 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+DEBUG 2021-08-05 16:00:57,783 middleware.py.__init__:51 - Initializing messaging client
+DEBUG 2021-08-05 16:00:57,784 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-08-05 16:00:57,786 middleware.py.__init__:63 - Twilio client initialized
+INFO 2021-08-05 16:30:00,015 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+DEBUG 2021-08-05 16:30:57,650 middleware.py.__init__:51 - Initializing messaging client
+DEBUG 2021-08-05 16:30:57,651 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-08-05 16:30:57,652 middleware.py.__init__:63 - Twilio client initialized
+INFO 2021-08-06 09:00:00,060 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+DEBUG 2021-08-06 09:00:57,318 middleware.py.__init__:51 - Initializing messaging client
+DEBUG 2021-08-06 09:00:57,320 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-08-06 09:00:57,321 middleware.py.__init__:63 - Twilio client initialized
+INFO 2021-08-06 09:30:00,011 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+DEBUG 2021-08-06 09:30:57,610 middleware.py.__init__:51 - Initializing messaging client
+DEBUG 2021-08-06 09:30:57,611 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-08-06 09:30:57,613 middleware.py.__init__:63 - Twilio client initialized
+INFO 2021-08-06 10:00:00,004 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+DEBUG 2021-08-06 10:00:57,957 middleware.py.__init__:51 - Initializing messaging client
+DEBUG 2021-08-06 10:00:57,958 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-08-06 10:00:57,959 middleware.py.__init__:63 - Twilio client initialized
+INFO 2021-08-06 10:30:00,006 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+DEBUG 2021-08-06 10:30:57,743 middleware.py.__init__:51 - Initializing messaging client
+DEBUG 2021-08-06 10:30:57,744 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-08-06 10:30:57,745 middleware.py.__init__:63 - Twilio client initialized
+INFO 2021-08-06 11:00:00,019 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+DEBUG 2021-08-06 11:00:57,917 middleware.py.__init__:51 - Initializing messaging client
+DEBUG 2021-08-06 11:00:57,918 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-08-06 11:00:57,919 middleware.py.__init__:63 - Twilio client initialized
+INFO 2021-08-06 11:30:00,015 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+DEBUG 2021-08-06 11:30:57,684 middleware.py.__init__:51 - Initializing messaging client
+DEBUG 2021-08-06 11:30:57,686 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-08-06 11:30:57,687 middleware.py.__init__:63 - Twilio client initialized
+INFO 2021-08-06 12:00:00,013 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+DEBUG 2021-08-06 12:00:57,943 middleware.py.__init__:51 - Initializing messaging client
+DEBUG 2021-08-06 12:00:57,944 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-08-06 12:00:57,945 middleware.py.__init__:63 - Twilio client initialized
+INFO 2021-08-06 12:30:00,022 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+DEBUG 2021-08-06 12:30:57,756 middleware.py.__init__:51 - Initializing messaging client
+DEBUG 2021-08-06 12:30:57,757 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-08-06 12:30:57,758 middleware.py.__init__:63 - Twilio client initialized
+INFO 2021-08-06 13:00:00,025 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+DEBUG 2021-08-06 13:00:58,678 middleware.py.__init__:51 - Initializing messaging client
+DEBUG 2021-08-06 13:00:58,679 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-08-06 13:00:58,680 middleware.py.__init__:63 - Twilio client initialized
+INFO 2021-08-06 13:30:00,007 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+DEBUG 2021-08-06 13:30:57,509 middleware.py.__init__:51 - Initializing messaging client
+DEBUG 2021-08-06 13:30:57,510 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-08-06 13:30:57,511 middleware.py.__init__:63 - Twilio client initialized
+INFO 2021-08-06 14:00:00,003 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+DEBUG 2021-08-06 14:00:57,651 middleware.py.__init__:51 - Initializing messaging client
+DEBUG 2021-08-06 14:00:57,652 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-08-06 14:00:57,653 middleware.py.__init__:63 - Twilio client initialized
+INFO 2021-08-06 14:30:00,006 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+INFO 2021-08-06 15:00:00,007 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+INFO 2021-08-06 15:30:00,004 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+INFO 2021-08-06 16:00:00,006 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+INFO 2021-08-06 16:30:00,007 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+DEBUG 2021-08-09 08:49:38,980 middleware.py.<module>:13 - Reading .env file at: /.env
+DEBUG 2021-08-09 08:49:39,472 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-08-09 08:49:43,727 middleware.py.<module>:13 - Reading .env file at: /.env
+DEBUG 2021-08-09 08:49:43,989 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-08-09 08:50:20,383 middleware.py.<module>:13 - Reading .env file at: /.env
+DEBUG 2021-08-09 08:50:20,668 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+INFO 2021-08-09 09:00:00,085 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+INFO 2021-08-09 09:30:00,009 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+INFO 2021-08-09 10:00:00,004 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+INFO 2021-08-09 10:30:00,048 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+INFO 2021-08-09 11:00:00,116 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+DEBUG 2021-08-09 11:00:57,738 middleware.py.__init__:51 - Initializing messaging client
+DEBUG 2021-08-09 11:00:57,739 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-08-09 11:00:57,741 middleware.py.__init__:63 - Twilio client initialized
+INFO 2021-08-09 11:30:00,008 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+DEBUG 2021-08-09 11:30:57,811 middleware.py.__init__:51 - Initializing messaging client
+DEBUG 2021-08-09 11:30:57,812 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-08-09 11:30:57,814 middleware.py.__init__:63 - Twilio client initialized
+INFO 2021-08-09 12:00:00,004 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+DEBUG 2021-08-09 12:00:57,776 middleware.py.__init__:51 - Initializing messaging client
+DEBUG 2021-08-09 12:00:57,777 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-08-09 12:00:57,779 middleware.py.__init__:63 - Twilio client initialized
+INFO 2021-08-09 12:30:00,005 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+INFO 2021-08-09 13:00:00,035 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+DEBUG 2021-08-09 13:00:57,560 middleware.py.__init__:51 - Initializing messaging client
+DEBUG 2021-08-09 13:00:57,564 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-08-09 13:00:57,566 middleware.py.__init__:63 - Twilio client initialized
+INFO 2021-08-09 13:30:00,005 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+DEBUG 2021-08-09 13:30:57,555 middleware.py.__init__:51 - Initializing messaging client
+DEBUG 2021-08-09 13:30:57,561 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-08-09 13:30:57,562 middleware.py.__init__:63 - Twilio client initialized
+INFO 2021-08-09 14:00:00,006 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+INFO 2021-08-09 14:30:00,006 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+INFO 2021-08-09 15:00:00,005 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+INFO 2021-08-09 15:30:00,005 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+INFO 2021-08-09 16:00:00,004 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+INFO 2021-08-09 16:30:00,004 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+INFO 2021-08-10 09:00:00,007 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+INFO 2021-08-10 09:30:00,009 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+DEBUG 2021-08-10 09:30:58,598 middleware.py.__init__:51 - Initializing messaging client
+DEBUG 2021-08-10 09:30:58,599 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-08-10 09:30:58,600 middleware.py.__init__:63 - Twilio client initialized
+INFO 2021-08-10 10:00:00,006 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+DEBUG 2021-08-10 10:00:57,317 middleware.py.__init__:51 - Initializing messaging client
+DEBUG 2021-08-10 10:00:57,319 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-08-10 10:00:57,320 middleware.py.__init__:63 - Twilio client initialized
+INFO 2021-08-10 10:30:00,005 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+DEBUG 2021-08-10 10:30:57,618 middleware.py.__init__:51 - Initializing messaging client
+DEBUG 2021-08-10 10:30:57,619 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-08-10 10:30:57,621 middleware.py.__init__:63 - Twilio client initialized
+INFO 2021-08-10 11:00:00,044 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+DEBUG 2021-08-10 11:00:57,652 middleware.py.__init__:51 - Initializing messaging client
+DEBUG 2021-08-10 11:00:57,653 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-08-10 11:00:57,654 middleware.py.__init__:63 - Twilio client initialized
+INFO 2021-08-10 11:30:00,012 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+DEBUG 2021-08-10 11:30:58,001 middleware.py.__init__:51 - Initializing messaging client
+DEBUG 2021-08-10 11:30:58,002 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-08-10 11:30:58,003 middleware.py.__init__:63 - Twilio client initialized
+INFO 2021-08-10 12:00:00,003 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+DEBUG 2021-08-10 12:00:58,033 middleware.py.__init__:51 - Initializing messaging client
+DEBUG 2021-08-10 12:00:58,036 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-08-10 12:00:58,041 middleware.py.__init__:63 - Twilio client initialized
+INFO 2021-08-10 12:30:00,007 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+DEBUG 2021-08-10 12:30:57,992 middleware.py.__init__:51 - Initializing messaging client
+DEBUG 2021-08-10 12:30:57,993 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-08-10 12:30:57,994 middleware.py.__init__:63 - Twilio client initialized
+INFO 2021-08-10 13:00:00,004 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+INFO 2021-08-10 13:30:00,695 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+INFO 2021-08-10 14:00:00,175 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+INFO 2021-08-10 14:30:00,007 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+INFO 2021-08-10 15:00:00,009 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+INFO 2021-08-10 15:30:00,007 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+INFO 2021-08-10 16:00:00,004 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+INFO 2021-08-10 16:30:00,006 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+INFO 2021-08-11 09:00:00,048 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+INFO 2021-08-11 09:30:00,005 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+INFO 2021-08-11 10:00:00,003 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+INFO 2021-08-11 10:30:00,004 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+INFO 2021-08-11 11:00:00,008 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+INFO 2021-08-11 11:30:00,004 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+DEBUG 2021-08-11 11:30:57,613 middleware.py.__init__:51 - Initializing messaging client
+DEBUG 2021-08-11 11:30:57,614 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-08-11 11:30:57,615 middleware.py.__init__:63 - Twilio client initialized
+INFO 2021-08-11 12:00:00,004 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+INFO 2021-08-11 12:30:00,005 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+INFO 2021-08-11 13:00:00,012 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+INFO 2021-08-11 13:30:00,004 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+INFO 2021-08-11 14:00:00,024 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+INFO 2021-08-11 14:30:00,046 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+INFO 2021-08-11 15:00:00,006 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+INFO 2021-08-11 15:30:00,006 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+INFO 2021-08-11 16:00:00,039 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+INFO 2021-08-11 16:30:00,021 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+INFO 2021-08-12 09:00:00,010 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+DEBUG 2021-08-12 09:20:30,979 middleware.py.<module>:13 - Reading .env file at: /.env
+DEBUG 2021-08-12 09:20:31,630 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+INFO 2021-08-12 09:30:00,085 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM', 'DNUT']
+INFO 2021-08-12 10:00:00,009 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM', 'DNUT']
+INFO 2021-08-12 10:30:00,085 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM', 'DNUT']
+INFO 2021-08-12 11:00:00,009 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM', 'DNUT']
+INFO 2021-08-12 11:30:00,012 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM', 'DNUT']
+INFO 2021-08-12 12:00:00,019 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM', 'DNUT']
+INFO 2021-08-12 12:30:00,005 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM', 'DNUT']
+INFO 2021-08-12 13:00:00,003 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM', 'DNUT']
+INFO 2021-08-12 13:30:00,010 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM', 'DNUT']
+INFO 2021-08-12 14:00:00,005 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM', 'DNUT']
+INFO 2021-08-12 14:30:00,008 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM', 'DNUT']
+INFO 2021-08-12 15:00:00,011 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM', 'DNUT']
+INFO 2021-08-12 15:30:00,029 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM', 'DNUT']
+INFO 2021-08-12 16:00:00,006 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM', 'DNUT']
+INFO 2021-08-12 19:17:47,675 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM', 'DNUT']
+INFO 2021-08-13 09:10:14,151 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM', 'DNUT']
+INFO 2021-08-13 09:30:00,013 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM', 'DNUT']
+INFO 2021-08-13 10:00:00,005 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM', 'DNUT']
+DEBUG 2021-08-13 10:01:05,189 middleware.py.__init__:51 - Initializing messaging client
+DEBUG 2021-08-13 10:01:05,191 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-08-13 10:01:05,192 middleware.py.__init__:63 - Twilio client initialized
+INFO 2021-08-13 10:30:00,007 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM', 'DNUT']
+DEBUG 2021-08-13 10:31:05,000 middleware.py.__init__:51 - Initializing messaging client
+DEBUG 2021-08-13 10:31:05,002 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-08-13 10:31:05,003 middleware.py.__init__:63 - Twilio client initialized
+INFO 2021-08-13 11:00:00,017 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM', 'DNUT']
+DEBUG 2021-08-13 11:01:05,082 middleware.py.__init__:51 - Initializing messaging client
+DEBUG 2021-08-13 11:01:05,083 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-08-13 11:01:05,084 middleware.py.__init__:63 - Twilio client initialized
+INFO 2021-08-13 11:30:00,013 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM', 'DNUT']
+DEBUG 2021-08-13 11:31:05,881 middleware.py.__init__:51 - Initializing messaging client
+DEBUG 2021-08-13 11:31:05,884 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-08-13 11:31:05,887 middleware.py.__init__:63 - Twilio client initialized
+INFO 2021-08-13 12:00:00,012 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM', 'DNUT']
+DEBUG 2021-08-13 12:01:05,157 middleware.py.__init__:51 - Initializing messaging client
+DEBUG 2021-08-13 12:01:05,158 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-08-13 12:01:05,159 middleware.py.__init__:63 - Twilio client initialized
+INFO 2021-08-13 12:30:00,017 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM', 'DNUT']
+DEBUG 2021-08-13 12:31:05,770 middleware.py.__init__:51 - Initializing messaging client
+DEBUG 2021-08-13 12:31:05,771 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-08-13 12:31:05,772 middleware.py.__init__:63 - Twilio client initialized
+INFO 2021-08-13 13:00:00,003 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM', 'DNUT']
+DEBUG 2021-08-13 13:01:05,109 middleware.py.__init__:51 - Initializing messaging client
+DEBUG 2021-08-13 13:01:05,110 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-08-13 13:01:05,111 middleware.py.__init__:63 - Twilio client initialized
+INFO 2021-08-13 13:30:00,189 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM', 'DNUT']
+DEBUG 2021-08-13 13:31:06,350 middleware.py.__init__:51 - Initializing messaging client
+DEBUG 2021-08-13 13:31:06,351 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-08-13 13:31:06,355 middleware.py.__init__:63 - Twilio client initialized
+INFO 2021-08-13 14:00:00,008 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM', 'DNUT']
+DEBUG 2021-08-13 14:01:05,087 middleware.py.__init__:51 - Initializing messaging client
+DEBUG 2021-08-13 14:01:05,088 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-08-13 14:01:05,089 middleware.py.__init__:63 - Twilio client initialized
+INFO 2021-08-13 14:30:00,009 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM', 'DNUT']
+DEBUG 2021-08-13 14:31:06,039 middleware.py.__init__:51 - Initializing messaging client
+DEBUG 2021-08-13 14:31:06,041 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-08-13 14:31:06,045 middleware.py.__init__:63 - Twilio client initialized
+INFO 2021-08-13 15:00:00,017 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM', 'DNUT']
+DEBUG 2021-08-13 15:01:06,296 middleware.py.__init__:51 - Initializing messaging client
+DEBUG 2021-08-13 15:01:06,298 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-08-13 15:01:06,299 middleware.py.__init__:63 - Twilio client initialized
+INFO 2021-08-13 15:30:00,027 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM', 'DNUT']
+DEBUG 2021-08-13 15:31:05,840 middleware.py.__init__:51 - Initializing messaging client
+DEBUG 2021-08-13 15:31:05,841 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-08-13 15:31:05,842 middleware.py.__init__:63 - Twilio client initialized
+INFO 2021-08-13 16:00:00,019 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM', 'DNUT']
+DEBUG 2021-08-13 16:01:06,055 middleware.py.__init__:51 - Initializing messaging client
+DEBUG 2021-08-13 16:01:06,055 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-08-13 16:01:06,056 middleware.py.__init__:63 - Twilio client initialized
+INFO 2021-08-13 16:30:00,005 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM', 'DNUT']
+DEBUG 2021-08-13 16:31:05,864 middleware.py.__init__:51 - Initializing messaging client
+DEBUG 2021-08-13 16:31:05,865 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-08-13 16:31:05,866 middleware.py.__init__:63 - Twilio client initialized
+DEBUG 2021-08-16 09:41:23,213 middleware.py.<module>:13 - Reading .env file at: /.env
+DEBUG 2021-08-16 09:41:23,925 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+INFO 2021-08-16 09:41:25,914 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+DEBUG 2021-08-16 09:42:22,392 middleware.py.__init__:51 - Initializing messaging client
+DEBUG 2021-08-16 09:42:22,393 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-08-16 09:42:22,395 middleware.py.__init__:63 - Twilio client initialized
+INFO 2021-08-16 10:00:00,005 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+DEBUG 2021-08-16 10:00:57,621 middleware.py.__init__:51 - Initializing messaging client
+DEBUG 2021-08-16 10:00:57,624 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-08-16 10:00:57,627 middleware.py.__init__:63 - Twilio client initialized
+INFO 2021-08-16 10:30:00,009 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+DEBUG 2021-08-16 10:30:57,786 middleware.py.__init__:51 - Initializing messaging client
+DEBUG 2021-08-16 10:30:57,786 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-08-16 10:30:57,787 middleware.py.__init__:63 - Twilio client initialized
+INFO 2021-08-16 11:00:00,005 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+DEBUG 2021-08-16 11:00:57,652 middleware.py.__init__:51 - Initializing messaging client
+DEBUG 2021-08-16 11:00:57,653 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-08-16 11:00:57,654 middleware.py.__init__:63 - Twilio client initialized
+INFO 2021-08-16 11:30:00,007 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+DEBUG 2021-08-16 11:30:57,593 middleware.py.__init__:51 - Initializing messaging client
+DEBUG 2021-08-16 11:30:57,594 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-08-16 11:30:57,595 middleware.py.__init__:63 - Twilio client initialized
+INFO 2021-08-16 12:00:00,017 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+INFO 2021-08-16 12:30:00,006 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+DEBUG 2021-08-16 12:30:57,842 middleware.py.__init__:51 - Initializing messaging client
+DEBUG 2021-08-16 12:30:57,843 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-08-16 12:30:57,844 middleware.py.__init__:63 - Twilio client initialized
+INFO 2021-08-16 13:00:00,005 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+DEBUG 2021-08-16 13:00:57,043 middleware.py.__init__:51 - Initializing messaging client
+DEBUG 2021-08-16 13:00:57,044 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-08-16 13:00:57,045 middleware.py.__init__:63 - Twilio client initialized
+INFO 2021-08-16 13:30:00,010 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+INFO 2021-08-16 14:00:00,026 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+INFO 2021-08-16 14:30:00,038 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+INFO 2021-08-16 15:00:00,010 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+INFO 2021-08-16 15:30:00,005 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+INFO 2021-08-16 16:00:00,046 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+INFO 2021-08-16 16:30:00,009 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+INFO 2021-08-17 09:00:00,021 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+INFO 2021-08-17 09:30:00,017 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+INFO 2021-08-17 10:00:00,007 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+INFO 2021-08-17 10:30:00,005 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+DEBUG 2021-08-17 10:30:58,192 middleware.py.__init__:51 - Initializing messaging client
+DEBUG 2021-08-17 10:30:58,193 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-08-17 10:30:58,194 middleware.py.__init__:63 - Twilio client initialized
+INFO 2021-08-17 11:00:00,016 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+INFO 2021-08-17 11:30:00,005 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+INFO 2021-08-17 12:00:00,007 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+INFO 2021-08-17 12:30:00,005 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+INFO 2021-08-17 13:00:00,009 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+DEBUG 2021-08-17 13:00:58,047 middleware.py.__init__:51 - Initializing messaging client
+DEBUG 2021-08-17 13:00:58,049 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-08-17 13:00:58,050 middleware.py.__init__:63 - Twilio client initialized
+INFO 2021-08-17 13:30:00,005 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+DEBUG 2021-08-17 13:30:58,061 middleware.py.__init__:51 - Initializing messaging client
+DEBUG 2021-08-17 13:30:58,062 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-08-17 13:30:58,063 middleware.py.__init__:63 - Twilio client initialized
+INFO 2021-08-17 14:00:00,009 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+INFO 2021-08-17 14:30:00,006 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+INFO 2021-08-17 15:00:00,007 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+INFO 2021-08-17 15:30:00,012 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+INFO 2021-08-17 16:00:00,094 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+INFO 2021-08-17 16:30:00,006 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+INFO 2021-08-18 09:08:02,581 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+DEBUG 2021-08-18 09:11:07,203 middleware.py.<module>:13 - Reading .env file at: /.env
+DEBUG 2021-08-18 09:11:07,675 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+INFO 2021-08-18 09:30:00,104 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+INFO 2021-08-18 10:00:00,014 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+INFO 2021-08-18 10:30:00,011 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+INFO 2021-08-18 11:00:00,027 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+INFO 2021-08-18 11:30:00,011 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+INFO 2021-08-18 12:00:00,048 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+INFO 2021-08-18 12:30:00,005 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+INFO 2021-08-18 13:00:00,004 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+INFO 2021-08-18 13:30:00,016 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+INFO 2021-08-18 14:00:00,003 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+INFO 2021-08-18 14:30:00,008 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+INFO 2021-08-18 15:00:00,005 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+INFO 2021-08-18 15:30:00,023 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+DEBUG 2021-08-18 15:30:57,998 middleware.py.__init__:51 - Initializing messaging client
+DEBUG 2021-08-18 15:30:57,999 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-08-18 15:30:58,001 middleware.py.__init__:63 - Twilio client initialized
+INFO 2021-08-18 16:00:00,010 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+DEBUG 2021-08-18 16:00:57,137 middleware.py.__init__:51 - Initializing messaging client
+DEBUG 2021-08-18 16:00:57,139 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-08-18 16:00:57,141 middleware.py.__init__:63 - Twilio client initialized
+INFO 2021-08-18 16:30:00,036 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+DEBUG 2021-08-18 16:30:57,391 middleware.py.__init__:51 - Initializing messaging client
+DEBUG 2021-08-18 16:30:57,393 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-08-18 16:30:57,394 middleware.py.__init__:63 - Twilio client initialized
+INFO 2021-08-19 09:14:37,638 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+DEBUG 2021-08-19 09:15:34,984 middleware.py.__init__:51 - Initializing messaging client
+DEBUG 2021-08-19 09:15:34,985 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-08-19 09:15:34,986 middleware.py.__init__:63 - Twilio client initialized
+INFO 2021-08-19 09:30:00,006 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+DEBUG 2021-08-19 09:30:57,998 middleware.py.__init__:51 - Initializing messaging client
+DEBUG 2021-08-19 09:30:57,999 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-08-19 09:30:58,000 middleware.py.__init__:63 - Twilio client initialized
+INFO 2021-08-19 10:00:00,010 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+DEBUG 2021-08-19 10:00:59,532 middleware.py.__init__:51 - Initializing messaging client
+DEBUG 2021-08-19 10:00:59,532 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-08-19 10:00:59,533 middleware.py.__init__:63 - Twilio client initialized
+INFO 2021-08-19 10:30:00,004 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+DEBUG 2021-08-19 10:31:02,373 middleware.py.__init__:51 - Initializing messaging client
+DEBUG 2021-08-19 10:31:02,374 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-08-19 10:31:02,375 middleware.py.__init__:63 - Twilio client initialized
+INFO 2021-08-19 11:00:00,007 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+DEBUG 2021-08-19 11:00:57,935 middleware.py.__init__:51 - Initializing messaging client
+DEBUG 2021-08-19 11:00:57,936 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-08-19 11:00:57,936 middleware.py.__init__:63 - Twilio client initialized
+INFO 2021-08-19 11:30:00,055 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+DEBUG 2021-08-19 11:30:59,358 middleware.py.__init__:51 - Initializing messaging client
+DEBUG 2021-08-19 11:30:59,359 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-08-19 11:30:59,360 middleware.py.__init__:63 - Twilio client initialized
+INFO 2021-08-19 12:00:00,004 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+DEBUG 2021-08-19 12:00:58,203 middleware.py.__init__:51 - Initializing messaging client
+DEBUG 2021-08-19 12:00:58,205 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-08-19 12:00:58,206 middleware.py.__init__:63 - Twilio client initialized
+INFO 2021-08-19 12:30:00,011 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+DEBUG 2021-08-19 12:30:58,250 middleware.py.__init__:51 - Initializing messaging client
+DEBUG 2021-08-19 12:30:58,251 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-08-19 12:30:58,252 middleware.py.__init__:63 - Twilio client initialized
+INFO 2021-08-19 13:00:00,004 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+DEBUG 2021-08-19 13:00:59,028 middleware.py.__init__:51 - Initializing messaging client
+DEBUG 2021-08-19 13:00:59,029 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-08-19 13:00:59,029 middleware.py.__init__:63 - Twilio client initialized
+INFO 2021-08-19 13:30:00,022 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+DEBUG 2021-08-19 13:30:58,767 middleware.py.__init__:51 - Initializing messaging client
+DEBUG 2021-08-19 13:30:58,768 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-08-19 13:30:58,769 middleware.py.__init__:63 - Twilio client initialized
+INFO 2021-08-19 14:00:00,005 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+INFO 2021-08-19 14:30:00,006 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+INFO 2021-08-19 15:00:00,064 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+INFO 2021-08-19 15:30:00,006 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+INFO 2021-08-19 16:00:00,006 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+INFO 2021-08-19 16:30:00,040 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM']
+DEBUG 2021-08-20 09:19:48,504 middleware.py.<module>:13 - Reading .env file at: /.env
+DEBUG 2021-08-20 09:19:49,190 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-08-20 09:20:42,504 middleware.py.<module>:13 - Reading .env file at: /.env
+DEBUG 2021-08-20 09:20:42,816 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-08-20 09:21:05,872 middleware.py.<module>:13 - Reading .env file at: /.env
+DEBUG 2021-08-20 09:21:06,157 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+INFO 2021-08-20 09:21:07,928 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM', 'ABUS']
+DEBUG 2021-08-20 09:22:12,860 middleware.py.__init__:51 - Initializing messaging client
+DEBUG 2021-08-20 09:22:12,861 middleware.py.load_twilio_config:37 - Loading Twilio configuration
+DEBUG 2021-08-20 09:22:12,863 middleware.py.__init__:63 - Twilio client initialized
+INFO 2021-08-20 09:30:00,004 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM', 'ABUS']
+INFO 2021-08-20 10:00:00,004 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM', 'ABUS']
+INFO 2021-08-20 10:30:00,004 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM', 'ABUS']
+INFO 2021-08-20 11:00:00,012 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM', 'ABUS']
+INFO 2021-08-20 11:30:00,008 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM', 'ABUS']
+INFO 2021-08-20 12:00:00,040 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM', 'ABUS']
+INFO 2021-08-20 12:30:00,010 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM', 'ABUS']
+INFO 2021-08-20 13:00:00,012 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM', 'ABUS']
+INFO 2021-08-20 13:30:00,037 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM', 'ABUS']
+INFO 2021-08-20 14:00:00,009 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM', 'ABUS']
+INFO 2021-08-20 14:30:00,007 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM', 'ABUS']
+INFO 2021-08-20 15:00:00,008 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM', 'ABUS']
+INFO 2021-08-20 15:30:00,015 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM', 'ABUS']
+INFO 2021-08-20 16:00:00,018 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM', 'ABUS']
+INFO 2021-08-20 16:30:00,008 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'CCL', 'JMIA', 'VIPS', 'VUZI', 'GUSH', 'UPWK', 'AFRM', 'ABUS']
+DEBUG 2021-08-22 22:48:40,009 tasks.py.<module>:28 - failed to load models
+DEBUG 2021-08-22 22:49:27,823 tasks.py.<module>:28 - failed to load models
+DEBUG 2021-08-23 13:10:30,923 tasks.py.<module>:28 - failed to load models
+DEBUG 2021-08-23 13:40:41,225 tasks.py.<module>:28 - failed to load models
+DEBUG 2021-08-23 13:41:38,549 tasks.py.<module>:28 - failed to load models
+INFO 2021-08-23 13:45:40,599 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'ABUS', 'UPWK', 'GUSH', 'JMIA', 'AFRM']
+INFO 2021-08-23 13:46:40,560 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'ABUS', 'UPWK', 'GUSH', 'JMIA', 'AFRM']
+INFO 2021-08-23 13:50:34,987 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'ABUS', 'UPWK', 'GUSH', 'JMIA', 'AFRM']
+INFO 2021-08-23 13:51:34,947 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'ABUS', 'UPWK', 'GUSH', 'JMIA', 'AFRM']
+INFO 2021-08-23 13:52:04,947 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'ABUS', 'UPWK', 'GUSH', 'JMIA', 'AFRM']
+INFO 2021-08-23 13:52:34,948 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'ABUS', 'UPWK', 'GUSH', 'JMIA', 'AFRM']
+INFO 2021-08-23 14:00:00,078 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'ABUS', 'UPWK', 'GUSH', 'JMIA', 'AFRM']
+INFO 2021-08-23 14:30:00,024 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'ABUS', 'UPWK', 'GUSH', 'JMIA', 'AFRM']
+INFO 2021-08-23 15:01:17,979 tasks.py.refresh_symbols:54 - Getting price updates for these tickers: ['AMC', 'ABUS', 'UPWK', 'GUSH', 'JMIA', 'AFRM']

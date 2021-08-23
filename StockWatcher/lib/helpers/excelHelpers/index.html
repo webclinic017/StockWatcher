@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="">
+  </head>
+  <body>
+    <!--[if lt IE 7]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="" async defer></script>
+    <!--[if lte IE 8]>
+    <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2-legacy.js"></script>
+    <![endif]-->
+
+
+
+    <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
+    <script>
+      hbspt.forms.create({
+      region: "na1",
+      portalId: "6952398",
+      formId: "16c89004-050e-4b4a-964f-8e672e6cc85c",
+      onFormSubmit: function($form) {
+        // YOUR SCRIPT HERE
+        console.log('form-submitted', $form)
+        for (element of $form) {
+          console.log(element)
+          const classNames = $(element).attr("class").split(/\s+/);
+          const emailInput = $form[0][0]
+          console.log(emailInput)
+          if (classNames.includes('email')) {
+            console.log('email found')
+            element
+          }
+        }
+
+
+      }
+    });
+
+
+    </script>
+  </body>
+</html>

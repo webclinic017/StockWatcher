@@ -1,0 +1,15 @@
+{% extends 'layout/base.html' %}
+{% block content %}
+<form action="/send_message/" method="post">
+{% csrf_token %}
+{{ form.as_p }}
+
+<input type="submit" />
+</form>
+
+{% if watcher_list %}
+  {%  for key, tick in watcher_list.items %}
+    Price Alert({{tick.min_price}}-{{tick.max_price}}): The current price of {{tick.symbol}} is {{tick.price}}
+  {% endfor %}
+{% endif %}
+{% endblock %}

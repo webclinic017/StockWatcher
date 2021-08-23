@@ -1,0 +1,35 @@
+{% extends 'layout/stock_watcher_base.html' %}
+{% block content %}
+
+{% if error %}
+  {{ error }}
+{% endif %}
+
+
+Search for a stock by symbol
+<form action="/" method="post" class="autocomplete">
+  {% csrf_token %}
+  <div class="query">
+    {{ form.query }}
+  </div>
+  <input type="submit" value="Submit" class="submit"  />
+</form>
+
+{% if ticker_watchers %}
+<p>
+  Current Alerts
+</p>
+  <ul>
+  {% for watcher in ticker_watchers %}
+    <li>
+      Symbol: {{ watcher.symbol }} <br />
+      Price: ${{ watcher.current_price }} <br />
+      Min: ${{ watcher.min_price }} <br />
+      Max: ${{ watcher.max_price }} <br />
+      Last updated: {{ watcher.last_updated }}
+    </li>
+    <br />
+  {% endfor %}
+  </ul>
+{% endif %}
+{% endblock %}

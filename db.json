@@ -1,0 +1,2669 @@
+[
+  {
+    "model": "stockWatcher.ticker",
+    "pk": 4,
+    "fields": {
+      "symbol": "AMCR",
+      "name": "AMCOR PLC",
+      "price": "11.820",
+      "created_at": "2021-06-14T00:54:03.180Z",
+      "updated_at": "2021-06-17T04:12:21.128Z"
+    }
+  },
+  {
+    "model": "stockWatcher.ticker",
+    "pk": 6,
+    "fields": {
+      "symbol": "IDEX",
+      "name": "",
+      "price": "2.660",
+      "created_at": "2021-06-17T14:23:15.488Z",
+      "updated_at": "2021-07-05T23:27:58.075Z"
+    }
+  },
+  {
+    "model": "stockWatcher.ticker",
+    "pk": 7,
+    "fields": {
+      "symbol": "BB",
+      "name": "",
+      "price": "11.990",
+      "created_at": "2021-06-18T01:51:31.984Z",
+      "updated_at": "2021-07-05T23:27:58.080Z"
+    }
+  },
+  {
+    "model": "stockWatcher.ticker",
+    "pk": 18,
+    "fields": {
+      "symbol": "CLNE",
+      "name": "",
+      "price": "7.629",
+      "created_at": "2021-06-18T13:05:38.368Z",
+      "updated_at": "2021-07-15T16:49:46.359Z"
+    }
+  },
+  {
+    "model": "stockWatcher.ticker",
+    "pk": 19,
+    "fields": {
+      "symbol": "AMC",
+      "name": "",
+      "price": "34.410",
+      "created_at": "2021-06-18T13:06:18.956Z",
+      "updated_at": "2021-08-20T20:31:04.918Z"
+    }
+  },
+  {
+    "model": "stockWatcher.ticker",
+    "pk": 21,
+    "fields": {
+      "symbol": "CCL",
+      "name": "",
+      "price": "21.960",
+      "created_at": "2021-06-18T13:08:31.754Z",
+      "updated_at": "2021-08-20T20:31:04.924Z"
+    }
+  },
+  {
+    "model": "stockWatcher.ticker",
+    "pk": 22,
+    "fields": {
+      "symbol": "JMIA",
+      "name": "",
+      "price": "17.780",
+      "created_at": "2021-06-18T13:52:32.663Z",
+      "updated_at": "2021-08-20T20:31:04.927Z"
+    }
+  },
+  {
+    "model": "stockWatcher.ticker",
+    "pk": 23,
+    "fields": {
+      "symbol": "TRCH",
+      "name": "",
+      "price": "4.950",
+      "created_at": "2021-06-23T15:43:59.465Z",
+      "updated_at": "2021-07-02T18:50:22.151Z"
+    }
+  },
+  {
+    "model": "stockWatcher.ticker",
+    "pk": 24,
+    "fields": {
+      "symbol": "DNUT",
+      "name": "Krispy Kreme, Inc. Common Stock",
+      "price": "19.180",
+      "created_at": "2021-07-02T12:51:33.811Z",
+      "updated_at": "2021-07-02T18:50:22.154Z"
+    }
+  },
+  {
+    "model": "stockWatcher.ticker",
+    "pk": 25,
+    "fields": {
+      "symbol": "VIPS",
+      "name": "",
+      "price": "13.220",
+      "created_at": "2021-07-07T12:48:51.582Z",
+      "updated_at": "2021-08-20T20:31:04.930Z"
+    }
+  },
+  {
+    "model": "stockWatcher.ticker",
+    "pk": 26,
+    "fields": {
+      "symbol": "VUZI",
+      "name": "",
+      "price": "11.720",
+      "created_at": "2021-07-07T17:17:56.419Z",
+      "updated_at": "2021-08-20T20:31:04.936Z"
+    }
+  },
+  {
+    "model": "stockWatcher.ticker",
+    "pk": 27,
+    "fields": {
+      "symbol": "GUSH",
+      "name": "",
+      "price": "53.600",
+      "created_at": "2021-07-22T14:51:52.493Z",
+      "updated_at": "2021-08-20T20:31:04.939Z"
+    }
+  },
+  {
+    "model": "stockWatcher.ticker",
+    "pk": 28,
+    "fields": {
+      "symbol": "UPWK",
+      "name": "",
+      "price": "41.820",
+      "created_at": "2021-07-30T16:42:22.630Z",
+      "updated_at": "2021-08-20T20:31:04.944Z"
+    }
+  },
+  {
+    "model": "stockWatcher.ticker",
+    "pk": 29,
+    "fields": {
+      "symbol": "AFRM",
+      "name": "",
+      "price": "64.760",
+      "created_at": "2021-08-03T22:01:46.760Z",
+      "updated_at": "2021-08-20T20:31:04.948Z"
+    }
+  },
+  {
+    "model": "stockWatcher.ticker",
+    "pk": 30,
+    "fields": {
+      "symbol": "DNUT",
+      "name": "Krispy kreme",
+      "price": "15.970",
+      "created_at": "2021-08-09T18:43:10.555Z",
+      "updated_at": "2021-08-09T18:43:10.555Z"
+    }
+  },
+  {
+    "model": "stockWatcher.ticker",
+    "pk": 31,
+    "fields": {
+      "symbol": "ABUS",
+      "name": "",
+      "price": "2.920",
+      "created_at": "2021-08-18T13:12:15.818Z",
+      "updated_at": "2021-08-20T20:31:04.952Z"
+    }
+  },
+  {
+    "model": "stockWatcher.tickerwatcher",
+    "pk": 39,
+    "fields": {
+      "watcher": 1,
+      "ticker": 21,
+      "min_price": "19.000",
+      "max_price": "26.000",
+      "created_at": "2021-07-07T12:46:35.722Z",
+      "updated_at": "2021-07-19T19:02:42.830Z"
+    }
+  },
+  {
+    "model": "stockWatcher.tickerwatcher",
+    "pk": 40,
+    "fields": {
+      "watcher": 1,
+      "ticker": 19,
+      "min_price": "30.000",
+      "max_price": "50.000",
+      "created_at": "2021-07-07T12:48:11.846Z",
+      "updated_at": "2021-07-08T13:46:55.822Z"
+    }
+  },
+  {
+    "model": "stockWatcher.tickerwatcher",
+    "pk": 42,
+    "fields": {
+      "watcher": 1,
+      "ticker": 26,
+      "min_price": "10.000",
+      "max_price": "20.000",
+      "created_at": "2021-07-07T17:17:56.425Z",
+      "updated_at": "2021-08-16T17:01:25.754Z"
+    }
+  },
+  {
+    "model": "stockWatcher.tickerwatcher",
+    "pk": 44,
+    "fields": {
+      "watcher": 1,
+      "ticker": 27,
+      "min_price": "50.000",
+      "max_price": "80.000",
+      "created_at": "2021-07-22T14:51:52.502Z",
+      "updated_at": "2021-08-17T17:34:31.165Z"
+    }
+  },
+  {
+    "model": "stockWatcher.tickerwatcher",
+    "pk": 45,
+    "fields": {
+      "watcher": 1,
+      "ticker": 22,
+      "min_price": "12.000",
+      "max_price": "30.000",
+      "created_at": "2021-07-22T14:52:13.835Z",
+      "updated_at": "2021-08-16T15:32:52.695Z"
+    }
+  },
+  {
+    "model": "stockWatcher.tickerwatcher",
+    "pk": 46,
+    "fields": {
+      "watcher": 1,
+      "ticker": 25,
+      "min_price": "12.000",
+      "max_price": "20.000",
+      "created_at": "2021-07-22T14:54:16.528Z",
+      "updated_at": "2021-08-17T14:31:51.065Z"
+    }
+  },
+  {
+    "model": "stockWatcher.tickerwatcher",
+    "pk": 47,
+    "fields": {
+      "watcher": 1,
+      "ticker": 19,
+      "min_price": "30.000",
+      "max_price": "45.000",
+      "created_at": "2021-07-22T16:11:23.758Z",
+      "updated_at": "2021-08-05T15:04:33.404Z"
+    }
+  },
+  {
+    "model": "stockWatcher.tickerwatcher",
+    "pk": 59,
+    "fields": {
+      "watcher": 1,
+      "ticker": 28,
+      "min_price": "38.000",
+      "max_price": "60.000",
+      "created_at": "2021-07-30T16:42:22.635Z",
+      "updated_at": "2021-08-19T17:39:24.253Z"
+    }
+  },
+  {
+    "model": "stockWatcher.tickerwatcher",
+    "pk": 61,
+    "fields": {
+      "watcher": 1,
+      "ticker": 29,
+      "min_price": "58.000",
+      "max_price": "69.000",
+      "created_at": "2021-08-05T14:06:49.394Z",
+      "updated_at": "2021-08-16T15:33:17.215Z"
+    }
+  },
+  {
+    "model": "stockWatcher.tickerwatcher",
+    "pk": 63,
+    "fields": {
+      "watcher": 1,
+      "ticker": 27,
+      "min_price": "50.000",
+      "max_price": "62.000",
+      "created_at": "2021-08-17T17:37:15.574Z",
+      "updated_at": "2021-08-19T16:32:31.464Z"
+    }
+  },
+  {
+    "model": "stockWatcher.tickerwatcher",
+    "pk": 64,
+    "fields": {
+      "watcher": 1,
+      "ticker": 31,
+      "min_price": "2.750",
+      "max_price": "3.000",
+      "created_at": "2021-08-18T13:12:15.824Z",
+      "updated_at": "2021-08-20T13:22:58.309Z"
+    }
+  },
+  {
+    "model": "stockWatcher.tickerwatcher",
+    "pk": 65,
+    "fields": {
+      "watcher": 1,
+      "ticker": 27,
+      "min_price": "50.000",
+      "max_price": "57.000",
+      "created_at": "2021-08-18T20:33:36.372Z",
+      "updated_at": "2021-08-19T16:03:31.356Z"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+      "action_time": "2021-06-13T18:23:04.879Z",
+      "user": 1,
+      "content_type": 4,
+      "object_id": "1",
+      "object_repr": "AMC - $49.40 - Updated: 06:23PM",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+      "action_time": "2021-06-13T18:23:57.837Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "1",
+      "object_repr": " - Users watching: 1",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+      "action_time": "2021-06-13T18:26:00.044Z",
+      "user": 1,
+      "content_type": 4,
+      "object_id": "1",
+      "object_repr": "AMC - $49.400 - Updated: 06:26PM",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Ticker watchers\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+      "action_time": "2021-06-13T18:26:33.166Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "2",
+      "object_repr": "0.007 - Users watching: 1",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+      "action_time": "2021-06-13T18:29:25.981Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "1",
+      "object_repr": "45.000 - Users watching: 1",
+      "action_flag": 2,
+      "change_message": "[]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+      "action_time": "2021-06-13T18:35:19.820Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "3",
+      "object_repr": "49",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+      "action_time": "2021-06-13T18:36:50.698Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "4",
+      "object_repr": "49",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+      "action_time": "2021-06-13T18:47:07.710Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "4",
+      "object_repr": "49.0000",
+      "action_flag": 2,
+      "change_message": "[]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+      "action_time": "2021-06-13T18:51:17.658Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "4",
+      "object_repr": "49.000 Users Watching: 0",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Watcher\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+      "action_time": "2021-06-13T18:51:21.798Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "4",
+      "object_repr": "49.000 Users Watching: 0",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Watcher\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+      "action_time": "2021-06-13T18:58:38.145Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "3",
+      "object_repr": "49.000 Users Watching: 0",
+      "action_flag": 2,
+      "change_message": "[]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+      "action_time": "2021-06-13T19:06:26.240Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "4",
+      "object_repr": "49.000 Users Watching: <QuerySet []>",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+      "action_time": "2021-06-13T19:07:55.862Z",
+      "user": 1,
+      "content_type": 4,
+      "object_id": "1",
+      "object_repr": "AMC - $49.400 - Updated: 06:26PM",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+      "action_time": "2021-06-13T19:08:10.509Z",
+      "user": 1,
+      "content_type": 4,
+      "object_id": "2",
+      "object_repr": "AMC - $3.33 - Updated: 07:08PM",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+      "action_time": "2021-06-13T19:08:22.762Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "3",
+      "object_repr": "49.000 Users Watching: 1",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+      "action_time": "2021-06-13T19:08:22.767Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "2",
+      "object_repr": "0.007 Users Watching: 2",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+      "action_time": "2021-06-13T19:08:22.771Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "1",
+      "object_repr": "45.000 Users Watching: 2",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+      "action_time": "2021-06-13T19:08:44.978Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "5",
+      "object_repr": "48 Users Watching: 0",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+      "action_time": "2021-06-13T19:19:40.667Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "5",
+      "object_repr": "48.000<QuerySet [<Ticker: AMC - $3.330 - Updated: 07:08PM>]>",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Ticker\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+      "action_time": "2021-06-13T21:34:25.573Z",
+      "user": 1,
+      "content_type": 4,
+      "object_id": "2",
+      "object_repr": "AMC - $3.33 - Updated: 09:34PM",
+      "action_flag": 2,
+      "change_message": "[]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+      "action_time": "2021-06-13T21:35:48.243Z",
+      "user": 1,
+      "content_type": 4,
+      "object_id": "2",
+      "object_repr": "AMC - $3.33 - Updated: 09:35PM",
+      "action_flag": 2,
+      "change_message": "[]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+      "action_time": "2021-06-13T21:39:16.545Z",
+      "user": 1,
+      "content_type": 4,
+      "object_id": "2",
+      "object_repr": "AMC - $3.331 - Updated: 09:39PM",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Price\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+      "action_time": "2021-06-13T21:40:30.830Z",
+      "user": 1,
+      "content_type": 4,
+      "object_id": "2",
+      "object_repr": "AMC - $3.331 - Updated: 09:40PM",
+      "action_flag": 2,
+      "change_message": "[]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+      "action_time": "2021-06-13T23:33:34.520Z",
+      "user": 1,
+      "content_type": 4,
+      "object_id": "2",
+      "object_repr": "AMC - $3.331 - Updated: 09:40PM",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+      "action_time": "2021-06-16T01:16:41.333Z",
+      "user": 1,
+      "content_type": 4,
+      "object_id": "5",
+      "object_repr": "AMC - $57.002 - Updated: 06/16/21 01:16AM",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Price\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+      "action_time": "2021-06-16T01:39:59.365Z",
+      "user": 1,
+      "content_type": 4,
+      "object_id": "5",
+      "object_repr": "AMC - $57.002 - Updated: 06/16/21 01:16AM",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 27,
+    "fields": {
+      "action_time": "2021-06-17T04:13:41.091Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "17",
+      "object_repr": "AMCR - $11.820 - Min: $10.000 - Max: $15.000",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 28,
+    "fields": {
+      "action_time": "2021-06-17T04:13:41.095Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "16",
+      "object_repr": "AMCR - $11.820 - Min: $11.000 - Max: $14.000",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 29,
+    "fields": {
+      "action_time": "2021-06-17T04:13:41.098Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "15",
+      "object_repr": "AMCR - $11.820 - Min: $11.000 - Max: $13.000",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 30,
+    "fields": {
+      "action_time": "2021-06-17T04:13:41.101Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "14",
+      "object_repr": "AMCR - $11.820 - Min: $11.000 - Max: $21.000",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 31,
+    "fields": {
+      "action_time": "2021-06-17T04:13:41.104Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "13",
+      "object_repr": "AMCR - $11.820 - Min: $12.100 - Max: $12.400",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 32,
+    "fields": {
+      "action_time": "2021-06-17T04:13:41.106Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "12",
+      "object_repr": "AMC - $55.180 - Min: $32.000 - Max: $55.000",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 33,
+    "fields": {
+      "action_time": "2021-06-17T04:13:41.109Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "11",
+      "object_repr": "AMC - $55.180 - Min: $21.000 - Max: $50.000",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 34,
+    "fields": {
+      "action_time": "2021-06-17T04:13:41.112Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "10",
+      "object_repr": "AMC - $55.180 - Min: $21.000 - Max: $56.000",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 35,
+    "fields": {
+      "action_time": "2021-06-17T04:13:41.115Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "9",
+      "object_repr": "AMC - $55.180 - Min: $45.000 - Max: $55.000",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 36,
+    "fields": {
+      "action_time": "2021-06-17T04:13:41.118Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "8",
+      "object_repr": "AMC - $55.180 - Min: $41.000 - Max: $52.000",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 37,
+    "fields": {
+      "action_time": "2021-06-17T04:13:41.121Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "7",
+      "object_repr": "AMC - $55.180 - Min: $42.000 - Max: $55.000",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 38,
+    "fields": {
+      "action_time": "2021-06-17T04:13:41.124Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "6",
+      "object_repr": "AMC - $55.180 - Min: $45.000 - Max: $50.000",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 39,
+    "fields": {
+      "action_time": "2021-06-17T04:14:05.781Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "19",
+      "object_repr": "AMC - $55.180 - Min: $50 - Max: $60",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 40,
+    "fields": {
+      "action_time": "2021-06-17T04:14:37.499Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "20",
+      "object_repr": "AMC - $55.180 - Min: $60 - Max: $78",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 41,
+    "fields": {
+      "action_time": "2021-06-17T05:15:11.514Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "20",
+      "object_repr": "AMC: $55.180, Min: $60.000 - Max: $78.000",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 42,
+    "fields": {
+      "action_time": "2021-06-18T02:10:37.453Z",
+      "user": 1,
+      "content_type": 4,
+      "object_id": "11",
+      "object_repr": "BBUCQ: $None - Updated: 06/18/21 02:07AM",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 43,
+    "fields": {
+      "action_time": "2021-06-18T02:10:54.277Z",
+      "user": 1,
+      "content_type": 4,
+      "object_id": "12",
+      "object_repr": "BBUCQ: $0.090 - Updated: 06/18/21 02:07AM",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 44,
+    "fields": {
+      "action_time": "2021-06-18T02:10:54.281Z",
+      "user": 1,
+      "content_type": 4,
+      "object_id": "10",
+      "object_repr": "BBC: $50.590 - Updated: 06/18/21 02:02AM",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 45,
+    "fields": {
+      "action_time": "2021-06-18T02:10:54.283Z",
+      "user": 1,
+      "content_type": 4,
+      "object_id": "9",
+      "object_repr": "BBYLF: $1.020 - Updated: 06/18/21 02:01AM",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 46,
+    "fields": {
+      "action_time": "2021-06-18T02:10:54.284Z",
+      "user": 1,
+      "content_type": 4,
+      "object_id": "8",
+      "object_repr": "BBSI: $74.220 - Updated: 06/18/21 01:58AM",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 47,
+    "fields": {
+      "action_time": "2021-06-18T02:47:38.584Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "27",
+      "object_repr": "BBTVF: $6.440, Min: $6.000 - Max: $7.000",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 48,
+    "fields": {
+      "action_time": "2021-06-18T02:47:38.587Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "26",
+      "object_repr": "BBUCQ: $0.090, Min: $0.050 - Max: $1.000",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 49,
+    "fields": {
+      "action_time": "2021-06-18T02:47:38.589Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "21",
+      "object_repr": "IDEX: $3.070, Min: $2.800 - Max: $3.300",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 50,
+    "fields": {
+      "action_time": "2021-06-18T13:05:54.933Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "19",
+      "object_repr": "AMC: $60.730, Min: $50.000 - Max: $60.000",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 51,
+    "fields": {
+      "action_time": "2021-06-18T13:45:02.372Z",
+      "user": 1,
+      "content_type": 4,
+      "object_id": "20",
+      "object_repr": "CCL: $None - Updated: 06/18/21 01:08PM",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 52,
+    "fields": {
+      "action_time": "2021-06-18T13:45:02.375Z",
+      "user": 1,
+      "content_type": 4,
+      "object_id": "17",
+      "object_repr": "CLNE: $None - Updated: 06/18/21 01:05PM",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 53,
+    "fields": {
+      "action_time": "2021-06-18T13:45:02.376Z",
+      "user": 1,
+      "content_type": 4,
+      "object_id": "15",
+      "object_repr": "BBTVF: $None - Updated: 06/18/21 02:11AM",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 54,
+    "fields": {
+      "action_time": "2021-06-18T13:45:02.378Z",
+      "user": 1,
+      "content_type": 4,
+      "object_id": "13",
+      "object_repr": "BBUCQ: $None - Updated: 06/18/21 02:11AM",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 55,
+    "fields": {
+      "action_time": "2021-06-18T13:45:11.814Z",
+      "user": 1,
+      "content_type": 4,
+      "object_id": "16",
+      "object_repr": "BBTVF: $6.440 - Updated: 06/18/21 02:11AM",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 56,
+    "fields": {
+      "action_time": "2021-06-18T13:45:11.818Z",
+      "user": 1,
+      "content_type": 4,
+      "object_id": "14",
+      "object_repr": "BBUCQ: $0.090 - Updated: 06/18/21 02:11AM",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 57,
+    "fields": {
+      "action_time": "2021-06-18T13:45:24.793Z",
+      "user": 1,
+      "content_type": 4,
+      "object_id": "3",
+      "object_repr": "AMC: $60.730 - Updated: 06/17/21 08:32PM",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 58,
+    "fields": {
+      "action_time": "2021-06-18T15:06:26.771Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "28",
+      "object_repr": "CLNE: $11.820, Min: $10.500 - Max: $13",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Max price\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 59,
+    "fields": {
+      "action_time": "2021-06-18T16:06:42.617Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "29",
+      "object_repr": "AMC: $62.060, Min: $60 - Max: $68",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Min price\", \"Max price\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 60,
+    "fields": {
+      "action_time": "2021-06-18T16:12:52.164Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "32",
+      "object_repr": "AMC: $62.060, Min: $64 - Max: $74",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 61,
+    "fields": {
+      "action_time": "2021-06-18T16:46:18.170Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "32",
+      "object_repr": "AMC: $62.060, Min: $64.000 - Max: $74.000",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 62,
+    "fields": {
+      "action_time": "2021-06-18T17:31:52.436Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "22",
+      "object_repr": "BB: $12.820, Min: $12 - Max: $14.000",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Min price\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 63,
+    "fields": {
+      "action_time": "2021-06-21T13:08:10.226Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "29",
+      "object_repr": "AMC: $59.260, Min: $60.000 - Max: $68.000",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 64,
+    "fields": {
+      "action_time": "2021-06-21T13:09:00.309Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "33",
+      "object_repr": "AMC: $59.260, Min: $50 - Max: $70",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 65,
+    "fields": {
+      "action_time": "2021-06-23T15:46:37.056Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "36",
+      "object_repr": "TRCH: $4.965, Min: $4 - Max: $5.5",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 66,
+    "fields": {
+      "action_time": "2021-06-30T13:03:29.850Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "28",
+      "object_repr": "CLNE: $10.310, Min: $8 - Max: $13.000",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Min price\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 67,
+    "fields": {
+      "action_time": "2021-06-30T13:03:43.496Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "30",
+      "object_repr": "CCL: $25.780, Min: $22 - Max: $30.000",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Min price\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 68,
+    "fields": {
+      "action_time": "2021-07-02T12:51:33.812Z",
+      "user": 1,
+      "content_type": 4,
+      "object_id": "24",
+      "object_repr": "DNUT: $21 - Updated: 07/02/21 12:51PM",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 69,
+    "fields": {
+      "action_time": "2021-07-02T12:51:51.082Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "37",
+      "object_repr": "DNUT: $21.000, Min: $19 - Max: $24",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 70,
+    "fields": {
+      "action_time": "2021-07-02T12:52:01.391Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "38",
+      "object_repr": "DNUT: $21.000, Min: $20 - Max: $22",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 71,
+    "fields": {
+      "action_time": "2021-07-05T14:34:35.918Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "38",
+      "object_repr": "DNUT: $19.180, Min: $20.000 - Max: $22.000",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 72,
+    "fields": {
+      "action_time": "2021-07-05T14:34:35.921Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "37",
+      "object_repr": "DNUT: $19.180, Min: $19.000 - Max: $24.000",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 73,
+    "fields": {
+      "action_time": "2021-07-05T23:29:24.206Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "36",
+      "object_repr": "TRCH: $4.950, Min: $4.000 - Max: $5.500",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 74,
+    "fields": {
+      "action_time": "2021-07-05T23:29:24.209Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "34",
+      "object_repr": "IDEX: $2.660, Min: $2.000 - Max: $4.000",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 75,
+    "fields": {
+      "action_time": "2021-07-05T23:29:24.213Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "31",
+      "object_repr": "JMIA: $27.720, Min: $27.000 - Max: $32.000",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 76,
+    "fields": {
+      "action_time": "2021-07-05T23:29:24.216Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "30",
+      "object_repr": "CCL: $26.060, Min: $22.000 - Max: $30.000",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 77,
+    "fields": {
+      "action_time": "2021-07-05T23:29:24.218Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "28",
+      "object_repr": "CLNE: $10.000, Min: $8.000 - Max: $13.000",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 78,
+    "fields": {
+      "action_time": "2021-07-05T23:29:24.221Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "22",
+      "object_repr": "BB: $11.990, Min: $12.000 - Max: $14.000",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 79,
+    "fields": {
+      "action_time": "2021-07-07T12:47:36.962Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "33",
+      "object_repr": "AMC: $49.960, Min: $50.000 - Max: $70.000",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 80,
+    "fields": {
+      "action_time": "2021-07-07T12:47:46.512Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "35",
+      "object_repr": "AMC: $49.960, Min: $45.000 - Max: $65.000",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 81,
+    "fields": {
+      "action_time": "2021-07-07T12:48:11.848Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "40",
+      "object_repr": "AMC: $49.960, Min: $45 - Max: $60",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 82,
+    "fields": {
+      "action_time": "2021-07-07T20:56:42.772Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "40",
+      "object_repr": "AMC: $45.070, Min: $46.000 - Max: $60.000",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Min price\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 83,
+    "fields": {
+      "action_time": "2021-07-08T13:07:45.937Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "40",
+      "object_repr": "AMC: $45.070, Min: $44 - Max: $60.000",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Min price\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 84,
+    "fields": {
+      "action_time": "2021-07-08T13:46:55.824Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "40",
+      "object_repr": "AMC: $41.041, Min: $30 - Max: $50",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Min price\", \"Max price\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 85,
+    "fields": {
+      "action_time": "2021-07-08T13:47:13.633Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "39",
+      "object_repr": "CCL: $23.261, Min: $20 - Max: $26.000",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Min price\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 86,
+    "fields": {
+      "action_time": "2021-07-14T13:35:33.796Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "42",
+      "object_repr": "VUZI: $15.610, Min: $14 - Max: $20.000",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Min price\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 87,
+    "fields": {
+      "action_time": "2021-07-15T14:34:53.430Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "43",
+      "object_repr": "CLNE: $7.855, Min: $8.000 - Max: $10.000",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 88,
+    "fields": {
+      "action_time": "2021-07-15T15:28:30.900Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "41",
+      "object_repr": "VIPS: $19.455, Min: $16.000 - Max: $20.000",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 89,
+    "fields": {
+      "action_time": "2021-07-19T19:02:42.832Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "39",
+      "object_repr": "CCL: $19.670, Min: $19 - Max: $26.000",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Min price\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 90,
+    "fields": {
+      "action_time": "2021-07-22T16:29:55.868Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "58",
+      "object_repr": "AMC: $37.760, Min: $30.000 - Max: $46.000",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 91,
+    "fields": {
+      "action_time": "2021-07-22T16:29:55.873Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "57",
+      "object_repr": "AMC: $37.760, Min: $30.000 - Max: $45.000",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 92,
+    "fields": {
+      "action_time": "2021-07-22T16:29:55.875Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "56",
+      "object_repr": "AMC: $37.760, Min: $30.000 - Max: $45.000",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 93,
+    "fields": {
+      "action_time": "2021-07-22T16:29:55.878Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "55",
+      "object_repr": "AMC: $37.760, Min: $30.000 - Max: $45.000",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 94,
+    "fields": {
+      "action_time": "2021-07-22T16:29:55.880Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "54",
+      "object_repr": "AMC: $37.760, Min: $30.000 - Max: $45.000",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 95,
+    "fields": {
+      "action_time": "2021-07-22T16:29:55.882Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "53",
+      "object_repr": "AMC: $37.760, Min: $30.000 - Max: $45.000",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 96,
+    "fields": {
+      "action_time": "2021-07-22T16:29:55.885Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "52",
+      "object_repr": "AMC: $37.760, Min: $30.000 - Max: $45.000",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 97,
+    "fields": {
+      "action_time": "2021-07-22T16:29:55.888Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "51",
+      "object_repr": "AMC: $37.760, Min: $30.000 - Max: $45.000",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 98,
+    "fields": {
+      "action_time": "2021-07-22T16:29:55.891Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "50",
+      "object_repr": "AMC: $37.760, Min: $30.000 - Max: $45.000",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 99,
+    "fields": {
+      "action_time": "2021-07-22T16:29:55.894Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "49",
+      "object_repr": "AMC: $37.760, Min: $32.000 - Max: $45.000",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 100,
+    "fields": {
+      "action_time": "2021-07-22T16:29:55.897Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "48",
+      "object_repr": "AMC: $37.760, Min: $32.000 - Max: $45.000",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 101,
+    "fields": {
+      "action_time": "2021-08-05T15:03:55.371Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "60",
+      "object_repr": "AFRM: $68.890, Min: $60.000 - Max: $68.000",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 102,
+    "fields": {
+      "action_time": "2021-08-05T15:04:03.696Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "61",
+      "object_repr": "AFRM: $68.890, Min: $67.000 - Max: $69.000",
+      "action_flag": 2,
+      "change_message": "[]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 103,
+    "fields": {
+      "action_time": "2021-08-05T15:04:33.409Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "47",
+      "object_repr": "AMC: $31.670, Min: $30.000 - Max: $45.000",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Min price\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 104,
+    "fields": {
+      "action_time": "2021-08-06T13:02:08.682Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "59",
+      "object_repr": "UPWK: $46.370, Min: $46.000 - Max: $60.000",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Min price\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 105,
+    "fields": {
+      "action_time": "2021-08-06T14:25:28.775Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "59",
+      "object_repr": "UPWK: $45.850, Min: $40 - Max: $60.000",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Min price\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 106,
+    "fields": {
+      "action_time": "2021-08-06T18:10:44.713Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "42",
+      "object_repr": "VUZI: $13.475, Min: $12.50 - Max: $20.000",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Min price\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 107,
+    "fields": {
+      "action_time": "2021-08-09T17:52:18.117Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "61",
+      "object_repr": "AFRM: $66.984, Min: $66.000 - Max: $69.000",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Min price\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 108,
+    "fields": {
+      "action_time": "2021-08-09T17:52:29.461Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "61",
+      "object_repr": "AFRM: $66.984, Min: $65.000 - Max: $69.000",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Min price\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 109,
+    "fields": {
+      "action_time": "2021-08-09T18:43:10.556Z",
+      "user": 1,
+      "content_type": 4,
+      "object_id": "30",
+      "object_repr": "DNUT: $15.97 - Updated: 08/09/21 06:43PM",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 110,
+    "fields": {
+      "action_time": "2021-08-09T18:43:26.943Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "62",
+      "object_repr": "DNUT: $15.970, Min: $15 - Max: $20",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 111,
+    "fields": {
+      "action_time": "2021-08-13T13:12:38.363Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "62",
+      "object_repr": "DNUT: $15.970, Min: $15.000 - Max: $20.000",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 112,
+    "fields": {
+      "action_time": "2021-08-16T15:32:52.698Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "45",
+      "object_repr": "JMIA: $18.480, Min: $12 - Max: $30.000",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Min price\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 113,
+    "fields": {
+      "action_time": "2021-08-16T15:33:17.217Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "61",
+      "object_repr": "AFRM: $63.900, Min: $58 - Max: $69.000",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Min price\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 114,
+    "fields": {
+      "action_time": "2021-08-16T17:01:25.756Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "42",
+      "object_repr": "VUZI: $12.270, Min: $10 - Max: $20.000",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Min price\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 115,
+    "fields": {
+      "action_time": "2021-08-17T14:31:51.069Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "46",
+      "object_repr": "VIPS: $14.790, Min: $12 - Max: $20.000",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Min price\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 116,
+    "fields": {
+      "action_time": "2021-08-17T17:34:31.169Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "44",
+      "object_repr": "GUSH: $59.970, Min: $50 - Max: $80.000",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Min price\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 117,
+    "fields": {
+      "action_time": "2021-08-17T17:37:15.576Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "63",
+      "object_repr": "GUSH: $59.970, Min: $58 - Max: $62",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 118,
+    "fields": {
+      "action_time": "2021-08-19T16:03:31.360Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "65",
+      "object_repr": "GUSH: $53.000, Min: $50 - Max: $57.000",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Min price\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 119,
+    "fields": {
+      "action_time": "2021-08-19T16:32:31.466Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "63",
+      "object_repr": "GUSH: $52.490, Min: $50.000 - Max: $62.000",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Min price\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 120,
+    "fields": {
+      "action_time": "2021-08-19T17:39:24.255Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "59",
+      "object_repr": "UPWK: $39.810, Min: $38 - Max: $60.000",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Min price\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 121,
+    "fields": {
+      "action_time": "2021-08-20T13:22:58.311Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "64",
+      "object_repr": "ABUS: $2.870, Min: $2.75 - Max: $3",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Min price\", \"Max price\"]}}]"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+      "name": "Can add question",
+      "content_type": 1,
+      "codename": "add_question"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+      "name": "Can change question",
+      "content_type": 1,
+      "codename": "change_question"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+      "name": "Can delete question",
+      "content_type": 1,
+      "codename": "delete_question"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+      "name": "Can view question",
+      "content_type": 1,
+      "codename": "view_question"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+      "name": "Can add choice",
+      "content_type": 2,
+      "codename": "add_choice"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+      "name": "Can change choice",
+      "content_type": 2,
+      "codename": "change_choice"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+      "name": "Can delete choice",
+      "content_type": 2,
+      "codename": "delete_choice"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+      "name": "Can view choice",
+      "content_type": 2,
+      "codename": "view_choice"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+      "name": "Can add ticker watcher",
+      "content_type": 3,
+      "codename": "add_tickerwatcher"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+      "name": "Can change ticker watcher",
+      "content_type": 3,
+      "codename": "change_tickerwatcher"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+      "name": "Can delete ticker watcher",
+      "content_type": 3,
+      "codename": "delete_tickerwatcher"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+      "name": "Can view ticker watcher",
+      "content_type": 3,
+      "codename": "view_tickerwatcher"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+      "name": "Can add ticker",
+      "content_type": 4,
+      "codename": "add_ticker"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+      "name": "Can change ticker",
+      "content_type": 4,
+      "codename": "change_ticker"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+      "name": "Can delete ticker",
+      "content_type": 4,
+      "codename": "delete_ticker"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+      "name": "Can view ticker",
+      "content_type": 4,
+      "codename": "view_ticker"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+      "name": "Can add log entry",
+      "content_type": 5,
+      "codename": "add_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+      "name": "Can change log entry",
+      "content_type": 5,
+      "codename": "change_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+      "name": "Can delete log entry",
+      "content_type": 5,
+      "codename": "delete_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+      "name": "Can view log entry",
+      "content_type": 5,
+      "codename": "view_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+      "name": "Can add permission",
+      "content_type": 6,
+      "codename": "add_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+      "name": "Can change permission",
+      "content_type": 6,
+      "codename": "change_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+      "name": "Can delete permission",
+      "content_type": 6,
+      "codename": "delete_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+      "name": "Can view permission",
+      "content_type": 6,
+      "codename": "view_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+      "name": "Can add group",
+      "content_type": 7,
+      "codename": "add_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+      "name": "Can change group",
+      "content_type": 7,
+      "codename": "change_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+      "name": "Can delete group",
+      "content_type": 7,
+      "codename": "delete_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+      "name": "Can view group",
+      "content_type": 7,
+      "codename": "view_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+      "name": "Can add user",
+      "content_type": 8,
+      "codename": "add_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+      "name": "Can change user",
+      "content_type": 8,
+      "codename": "change_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+      "name": "Can delete user",
+      "content_type": 8,
+      "codename": "delete_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+      "name": "Can view user",
+      "content_type": 8,
+      "codename": "view_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+      "name": "Can add content type",
+      "content_type": 9,
+      "codename": "add_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+      "name": "Can change content type",
+      "content_type": 9,
+      "codename": "change_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+      "name": "Can delete content type",
+      "content_type": 9,
+      "codename": "delete_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+      "name": "Can view content type",
+      "content_type": 9,
+      "codename": "view_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 37,
+    "fields": {
+      "name": "Can add session",
+      "content_type": 10,
+      "codename": "add_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 38,
+    "fields": {
+      "name": "Can change session",
+      "content_type": 10,
+      "codename": "change_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 39,
+    "fields": {
+      "name": "Can delete session",
+      "content_type": 10,
+      "codename": "delete_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 40,
+    "fields": {
+      "name": "Can view session",
+      "content_type": 10,
+      "codename": "view_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 41,
+    "fields": {
+      "name": "Can add ticker watcher join",
+      "content_type": 11,
+      "codename": "add_tickerwatcherjoin"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 42,
+    "fields": {
+      "name": "Can change ticker watcher join",
+      "content_type": 11,
+      "codename": "change_tickerwatcherjoin"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 43,
+    "fields": {
+      "name": "Can delete ticker watcher join",
+      "content_type": 11,
+      "codename": "delete_tickerwatcherjoin"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 44,
+    "fields": {
+      "name": "Can view ticker watcher join",
+      "content_type": 11,
+      "codename": "view_tickerwatcherjoin"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$260000$3QX3mSCuIwNqDhkgMHn3cV$H6K24TvQa1mCLlZQo/4VfpHV/6+0lF27YM4wvc391bU=",
+      "last_login": "2021-08-20T13:22:38.805Z",
+      "is_superuser": true,
+      "username": "jay",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2021-06-13T18:20:13.776Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+      "app_label": "polls",
+      "model": "question"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+      "app_label": "polls",
+      "model": "choice"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+      "app_label": "stockWatcher",
+      "model": "tickerwatcher"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+      "app_label": "stockWatcher",
+      "model": "ticker"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+      "app_label": "admin",
+      "model": "logentry"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+      "app_label": "auth",
+      "model": "permission"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+      "app_label": "auth",
+      "model": "group"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+      "app_label": "auth",
+      "model": "user"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": {
+      "app_label": "contenttypes",
+      "model": "contenttype"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 10,
+    "fields": {
+      "app_label": "sessions",
+      "model": "session"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 11,
+    "fields": {
+      "app_label": "stockWatcher",
+      "model": "tickerwatcherjoin"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "0u5xuc66w16a23f5hfeyu3tbgqjyruuv",
+    "fields": {
+      "session_data": ".eJxVjDsOwjAQRO_iGln-L1DS5wzWetfBAWRLcVIh7k4ipYBuNO_NvEXEdSlx7XmOE4ur0OL02yWkZ6474AfWe5PU6jJPSe6KPGiXQ-P8uh3u30HBXra1VVozuZBCvjCA95ktsjWAGmnLZB0lGxTDGPzIBjSacyLlLBijM4jPF-wPN-s:1m6agl:3zxwej4cdYtol4zY1TqS7bwSe06ihWoHM9jIPPXJDcs",
+      "expire_date": "2021-08-05T15:32:43.530Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "182bmrswhn6lgpzy5mk86zzmn5308dqr",
+    "fields": {
+      "session_data": ".eJxVjDEPwiAQhf8LsyEFCmhHF12cjHMDd1dbrcVAGYzxv0uTDrrdu--9781al-e-zYliOyBrmGCb3593cKdpAXhz0zVwCNMcB8-XCl9p4qeANO7X7p-gd6kva1UJgVAbb2iH1mpNqBwqaZ1wUG5QNXhlKrSd0R1KK5zceqhqZaUUZIs0vR4-jMV1uJyPJT_jAFSiNtzIhWcASok1c8z0-QJvv0YL:1mGSFk:Iy0EQzmajkxTzj_IZNPcal-_lINtxGpsfaTAfsee4wk",
+      "expire_date": "2021-09-01T20:33:36.374Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "1cdge8wwcb6o2jj2kczrz4g18wh4wdqg",
+    "fields": {
+      "session_data": ".eJxVjMsOwiAQRf-FtSEFWka7U9f9hgZmprY-ioF2YYz_LiRd6G7unHvPW_RuXcZ-TRz7iUQrlNj9_rzDG88F0NXNlyAxzEucvCwVudEku0B8P23dP8Ho0pjXplKKsLbe8oEAmobJODIanHKYbzQ1emMrgsE2A2lQTu89VrUBrRVDlqbXw4d7dh27c47POCEXM0iwBa-InJJol7jy5wsmpEWp:1m6bZB:aqH9O2CMDn023NwjfOBjRMwVK_7z9asfx3cUGnHAWV8",
+      "expire_date": "2021-08-05T16:28:57.442Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "2vdmlap6h1oh27wpfrretifozy3h5jx6",
+    "fields": {
+      "session_data": ".eJxVjDsOwjAQRO_iGln-L1DS5wzWetfBAWRLcVIh7k4ipYBuNO_NvEXEdSlx7XmOE4ur0OL02yWkZ6474AfWe5PU6jJPSe6KPGiXQ-P8uh3u30HBXra1VVozuZBCvjCA95ktsjWAGmnLZB0lGxTDGPzIBjSacyLlLBijM4jPF-wPN-s:1m0Pfz:wuAgnBv821svW4_cMUtpNmJZ_TJtFjcrNN_UZ3DdMXA",
+      "expire_date": "2021-07-19T14:34:23.541Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "32x1beqsfvj7ifmjts0132s8ocotcttf",
+    "fields": {
+      "session_data": ".eJxVjL0OgjAQx9-ls2notbTopoMbiy9ArndFUKSGwmCM725JGHT7f_7eosFl7polhanpWRyEErvfzCPdw7gWfMPxGiXFcZ56L9eJ3Nok68hhOG3bP0CHqctvXSjFZKy3Yc_OlWVgjazBoULKmrQhr23BrrVly-AUQuWpMNoBqOAyNL0ePg6ZdTxf6uyfU08hW1tJAPH5An2bQJY:1mBd0I:2YsplRWZwlT2vUZ9Bipq2t6M6hJQ9CcKxg7mgd_RnbE",
+      "expire_date": "2021-08-19T13:01:42.913Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "3ax4xaykpgrcwll2jk3gxs05af0ds5e1",
+    "fields": {
+      "session_data": ".eJxVjDESgjAQRe-S2smQLCRop4UdjRdgkt1FUCQOIYXjeHfDDIV2-_f9_96idWnp2xR5bgcSB6HE7vfnHd55WgHd3HQNEsO0zIOXa0VuNMomEI-nrfsn6F3s8xoKpQhL4w3vydqqYgJHoK1TDvONUKIHU5DtTNWRtsrp2mNRgtVasc3S-Hr4MGbX8Xxpcn7OA3KOppYAK0-IHKM4LHPizxdtZUX7:1mBe1J:ebFBEzRn_U8ttOJS2pfZdjcsqATVt79R9fr69ZzDay4",
+      "expire_date": "2021-08-19T14:06:49.396Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "7tvca7nqhdvsbahtsssffwmcenjjjywr",
+    "fields": {
+      "session_data": ".eJxVjsEKwjAMht-lZylru7bOozcPgiB4HWmSuencZN0OIr67LeygtyTfn4__LWpY5rZeIk91R2InlNj83gLgnYcM6AbDdZQ4DvPUBZkjcqVRHkfifr9m_wQtxDZ9m0IpwtIFxxV5by2TATLagwJMM5oSg3EF-cbZhrRXoLcBi9J4rRX7JI2vRxj75LocTue0P6cOOTf2srKZL4gco9g10Ef-fAG3NkZk:1m6a5Y:El44QbIvFVWIjAxhYtRVLH6-Q3RwX6aG5jOPr-jQTr0",
+      "expire_date": "2021-08-05T14:54:16.567Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "8597qlvh47yz9evocifictxq94bzk7mf",
+    "fields": {
+      "session_data": ".eJxVjDsOwjAQRO_iGln-L1DS5wzWetfBAWRLcVIh7k4ipYBuNO_NvEXEdSlx7XmOE4ur0OL02yWkZ6474AfWe5PU6jJPSe6KPGiXQ-P8uh3u30HBXra1VVozuZBCvjCA95ktsjWAGmnLZB0lGxTDGPzIBjSacyLlLBijM4jPF-wPN-s:1m1rqS:PsfgF420YX6mTy2OI_dsmSusLwuMzGm6YUYZTgBXOgE",
+      "expire_date": "2021-07-23T14:51:12.661Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "883nyhgml2cw78h6hjija28ejw8yiy6k",
+    "fields": {
+      "session_data": ".eJxVjMsOgjAQRf-la9PQBy2ylK1-A5nODIIiNRQWxvjvloSF7ubOufe8RQvr0rdr4rkdSNRCicPvLwDeedoA3WC6RolxWuYhyK0id5rkJRKPp737J-gh9XltCqUIrQuOj-R9WTIZIKM9KMB8o7EYjCvId67sSHsFugpYWOO1VuyzNL0eIY7Z1TTnHJ_zgJyTrqTVG14ROSVRdzAm_nwBa4tF7g:1luEEZ:4soLMDxuJJ8j_bO-LLZaVMElD46HioCCddTx1x_tZWQ",
+      "expire_date": "2021-07-02T13:08:31.787Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "8jw2qpzz9dosl1rvojk0d3ok2vk6lp8m",
+    "fields": {
+      "session_data": ".eJxVjDsOwjAQRO_iGln-L1DS5wzWetfBAWRLcVIh7k4ipYBuNO_NvEXEdSlx7XmOE4ur0OL02yWkZ6474AfWe5PU6jJPSe6KPGiXQ-P8uh3u30HBXra1VVozuZBCvjCA95ktsjWAGmnLZB0lGxTDGPzIBjSacyLlLBijM4jPF-wPN-s:1mBeuK:LMFtXxpgMgxFxKjeAeed98nFX7zvWvF9SUYZiG6lutY",
+      "expire_date": "2021-08-19T15:03:40.886Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "8s5t8ckqm19maf0rzc3hh09gjie4k7xp",
+    "fields": {
+      "session_data": ".eJxVjDsOwjAQRO_iGln-L1DS5wzWetfBAWRLcVIh7k4ipYBuNO_NvEXEdSlx7XmOE4ur0OL02yWkZ6474AfWe5PU6jJPSe6KPGiXQ-P8uh3u30HBXra1VVozuZBCvjCA95ktsjWAGmnLZB0lGxTDGPzIBjSacyLlLBijM4jPF-wPN-s:1lyZs0:HWheweog7LAn9jUVEUPmcfJLZRoWo1ksQuBYWefAySo",
+      "expire_date": "2021-07-14T13:03:12.218Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "9j8iopya8m0uzsma5puxreyglvjm66j8",
+    "fields": {
+      "session_data": ".eJxVjDsOwjAQRO_iGln-L1DS5wzWetfBAWRLcVIh7k4ipYBuNO_NvEXEdSlx7XmOE4ur0OL02yWkZ6474AfWe5PU6jJPSe6KPGiXQ-P8uh3u30HBXra1VVozuZBCvjCA95ktsjWAGmnLZB0lGxTDGPzIBjSacyLlLBijM4jPF-wPN-s:1mBzTn:wjXBR-0bzhh23J5y7WcLUtqHLPme3Cc-JuPiNVevQRI",
+      "expire_date": "2021-08-20T13:01:39.198Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "b883yrefg2f5zau6aye40cnqj48whekm",
+    "fields": {
+      "session_data": ".eJxVjsEKwjAMht-lZylru7XTozcPgiB4HWmSuelcZd0OIr67LeygtyTfn4__LRpY5q5ZIk9NT2InlNj83jzgnccM6AbjNUgM4zz1XuaIXGmUx0A87Nfsn6CD2KVvUyhFWFpveUvOVRWTATLagQJMM5oSvbEFudZWLWmnQNcei9I4rRW7JI2vhw9Dcl0Op3Pan1OPnBvX0urMF0SOUexaGCJ_vrbXRl8:1m16yx:pia1U_KTXRoodPhQnd44F5lJ5_OD6q0EoM_KEFD81hM",
+      "expire_date": "2021-07-21T12:48:51.617Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "berj6sdxrj94ya4mgnyq7vtfh4lplu7v",
+    "fields": {
+      "session_data": ".eJxVjDsOwjAQRO_iGln-L1DS5wzWetfBAWRLcVIh7k4ipYBuNO_NvEXEdSlx7XmOE4ur0OL02yWkZ6474AfWe5PU6jJPSe6KPGiXQ-P8uh3u30HBXra1VVozuZBCvjCA95ktsjWAGmnLZB0lGxTDGPzIBjSacyLlLBijM4jPF-wPN-s:1mDADZ:ql6MSpoZhIjoZXNCamhIFOqRaJOZWCHg8bjmddcVME0",
+      "expire_date": "2021-08-23T18:41:45.501Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "bgxt60mx3hepiytirtg63ca8bw0gpyyj",
+    "fields": {
+      "session_data": ".eJxVjDsOwjAQRO_iGln-L1DS5wzWetfBAWRLcVIh7k4ipYBuNO_NvEXEdSlx7XmOE4ur0OL02yWkZ6474AfWe5PU6jJPSe6KPGiXQ-P8uh3u30HBXra1VVozuZBCvjCA95ktsjWAGmnLZB0lGxTDGPzIBjSacyLlLBijM4jPF-wPN-s:1m6xq9:VL8yYB9dncYc7yabL1xhyQu6zKP7jBRtb9PPGzL3XoA",
+      "expire_date": "2021-08-06T16:15:57.216Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "cpsd2d5v9o4ll36s3mnav8ytx49jn2v3",
+    "fields": {
+      "session_data": ".eJxVjDsOwjAQRO_iGln-L1DS5wzWetfBAWRLcVIh7k4ipYBuNO_NvEXEdSlx7XmOE4ur0OL02yWkZ6474AfWe5PU6jJPSe6KPGiXQ-P8uh3u30HBXra1VVozuZBCvjCA95ktsjWAGmnLZB0lGxTDGPzIBjSacyLlLBijM4jPF-wPN-s:1m3Uu4:K4ZBcP3tvjYJeV35KL8xfWIUPCSYkFwWLZuXAXWF6aA",
+      "expire_date": "2021-07-28T02:45:40.919Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "dqoeiznqqv7dsga62c6viv8a7ecvp5ct",
+    "fields": {
+      "session_data": ".eJxVjDsOwjAQRO_iGln-L1DS5wzWetfBAWRLcVIh7k4ipYBuNO_NvEXEdSlx7XmOE4ur0OL02yWkZ6474AfWe5PU6jJPSe6KPGiXQ-P8uh3u30HBXra1VVozuZBCvjCA95ktsjWAGmnLZB0lGxTDGPzIBjSacyLlLBijM4jPF-wPN-s:1m0Y0e:XhgQxpS3Cf3qJaoqH-Gn7LHWA6yp5tL3A4UXWKYurk8",
+      "expire_date": "2021-07-19T23:28:16.917Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "fjx6pom5fs51tlxm6mgyhg1wv7igqli0",
+    "fields": {
+      "session_data": ".eJxVjDsOwjAQRO_iGln-L1DS5wzWetfBAWRLcVIh7k4ipYBuNO_NvEXEdSlx7XmOE4ur0OL02yWkZ6474AfWe5PU6jJPSe6KPGiXQ-P8uh3u30HBXra1VVozuZBCvjCA95ktsjWAGmnLZB0lGxTDGPzIBjSacyLlLBijM4jPF-wPN-s:1m42b4:-zjMdq8bmBAryh9Ta5fHEDvxpJr23NT8t9xSzvwB_-U",
+      "expire_date": "2021-07-29T14:44:18.905Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "gtxfyzs47a05n4m82qf4o6yh47p8k7hw",
+    "fields": {
+      "session_data": ".eJxVjsEOgjAMht9lZ7OwDTblpp65-AKka4ugyAyDgzG-u1vCQW9tv79f_rdoYV36do08twOJWiix-715wDtPGdANpmuQGKZlHrzMEbnRKJtAPJ627J-gh9inb1MoRVhab_lAzlUVkwEy2oECTDOaEr2xBbnOVh1pp0DvPRalcVordkkaXw8fxuQ6NudL2p_zgJwba6nLzFdEjlHUHYyRP1-xqEY4:1lsmdu:Nwhvs7uGY6UnGyH72-Qcq3Za2Jo0ACh98cXbb2_fVx0",
+      "expire_date": "2021-06-28T13:28:42.878Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "gy955q96k4nnl9q3vczgdgif1mknin1x",
+    "fields": {
+      "session_data": ".eJxVjD8PgjAQxb_LzaahLW2FURcXF-NOrneHoAiGwmCM392auLi9P7_3XpCe9zgNUMP5tD_ABh5zT5JtqSrvbA7SSiQpQd3ikGQDDa5L16xJ5qbnDGr4yyLSTcZvwVccL5OiaVzmPqovon5tUseJZdj92L-DDlOX17bQmqn00UvFITgnbJGtCaiRsiZbUrS-4NB617IJGs02UlHaYIyWAO8PIGFGiA:1lw535:7zxiv_3b08VzfaM09n1RP94FginilmES6ArMYwlm_C0",
+      "expire_date": "2021-07-07T15:44:19.206Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "i3cro7xzpsrpr18phebejr94y53zi0v3",
+    "fields": {
+      "session_data": ".eJxVjEEOgjAQRe_StWloS1t0qXGnXoFMZwZBkRoKC2O8uyVhobv58_5_b1HDPLX1nHisOxI7ocTm9xcA7zwsgG4wXKPEOExjF-RSkStN8hyJ-_3a_RO0kNq8NoVShKULjrfkvbVMBshoDwow32hKDMYV5BtnG9Jega4CFqXxWiv2WZpejxD77DqcLsecn2OHnGMlnV3wjMgpiV0DfeLPF28hRhE:1m1UO3:jv9Tt9PwrgUmvwDNmq4_kKDbRBn1GOo77LBYDTZ1IHI",
+      "expire_date": "2021-07-22T13:48:19.365Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "j39m9u5hk1j7vsubic79vtma6koavzr9",
+    "fields": {
+      "session_data": ".eJxVjDsOwjAQRO_iGln-L1DS5wzWetfBAWRLcVIh7k4ipYBuNO_NvEXEdSlx7XmOE4ur0OL02yWkZ6474AfWe5PU6jJPSe6KPGiXQ-P8uh3u30HBXra1VVozuZBCvjCA95ktsjWAGmnLZB0lGxTDGPzIBjSacyLlLBijM4jPF-wPN-s:1m5YWe:ZFnl8BQE2D4s5-tONkE22tpAjYIYZs7EFr551fVLaRw",
+      "expire_date": "2021-08-02T19:02:00.187Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "jkhw5c017utdhj4dmaaabjij1b2rcxxv",
+    "fields": {
+      "session_data": ".eJxVjDsOwjAQRO_iGln-L1DS5wzWetfBAWRLcVIh7k4ipYBuNO_NvEXEdSlx7XmOE4ur0OL02yWkZ6474AfWe5PU6jJPSe6KPGiXQ-P8uh3u30HBXra1VVozuZBCvjCA95ktsjWAGmnLZB0lGxTDGPzIBjSacyLlLBijM4jPF-wPN-s:1mH4Tm:cEZB5fNnJK8WWtblxPsaBVRlxivYHueDCPCjEMZLdRw",
+      "expire_date": "2021-09-03T13:22:38.808Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "k72sqzu44d95r6jcotek8yaylk1njoae",
+    "fields": {
+      "session_data": ".eJxVjDsOwjAQRO_iGln-L1DS5wzWetfBAWRLcVIh7k4ipYBuNO_NvEXEdSlx7XmOE4ur0OL02yWkZ6474AfWe5PU6jJPSe6KPGiXQ-P8uh3u30HBXra1VVozuZBCvjCA95ktsjWAGmnLZB0lGxTDGPzIBjSacyLlLBijM4jPF-wPN-s:1m3Us2:zTdRA7-MOHooZvlXbYpIHFtT4BoFNkm3Bhod41zdBjk",
+      "expire_date": "2021-07-28T02:43:34.123Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "ll83mytg2kveqc4ulio0xeiesbe9ador",
+    "fields": {
+      "session_data": ".eJxVjEsOgkAQRO_SazJhPjDKTl1zBtLT3QiKYBhYGOPdHRI27Orzqr4QP68wDVDBpb5BBu-5J0nOFSr3yceVSGKEqsUhSgYNrkvXrFHmpufEaThkAekp41bwA8f7pGgal7kPakPU3kZVTyzDdWcPBx3GLq1trjWTK0MpZ_a-KIQtsjUeNVLSZB0FW-bs27Jo2XiN5hQod9Ybo8XD7w-aLEXt:1m1Eam:yhU2nu-7LzVDbA0UyUcACeHRaqnJbDbvQY8NFrkYSvU",
+      "expire_date": "2021-07-21T20:56:24.079Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "lxircdb8refhr27ja6pg555emvrm247l",
+    "fields": {
+      "session_data": ".eJxVjDsOwjAQRO_iGln-L1DS5wzWetfBAWRLcVIh7k4ipYBuNO_NvEXEdSlx7XmOE4ur0OL02yWkZ6474AfWe5PU6jJPSe6KPGiXQ-P8uh3u30HBXra1VVozuZBCvjCA95ktsjWAGmnLZB0lGxTDGPzIBjSacyLlLBijM4jPF-wPN-s:1lzMyx:UMntAJk86htkrP2wLj3xDwLid1AU9sqGbdrlnQ1y134",
+      "expire_date": "2021-07-16T17:29:39.440Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "magn3r343wd7z4gie95n74sm8vnksno3",
+    "fields": {
+      "session_data": ".eJxVjDsOwjAQRO_iGln-L1DS5wzWetfBAWRLcVIh7k4ipYBuNO_NvEXEdSlx7XmOE4ur0OL02yWkZ6474AfWe5PU6jJPSe6KPGiXQ-P8uh3u30HBXra1VVozuZBCvjCA95ktsjWAGmnLZB0lGxTDGPzIBjSacyLlLBijM4jPF-wPN-s:1m6arm:mVxCsb6UG9qN1EoCFppo0XFoPtzGJvf_rbrr_90NexQ",
+      "expire_date": "2021-08-05T15:44:06.318Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "mconnd90nuf1vwod277eca2onv02cgsa",
+    "fields": {
+      "session_data": ".eJxVjDESgjAQRe-S2smQBBK108KOxgswm91FUCQOIYXjeHeDQ6Hd_n3_v5doIM1dkyJPTU9iL5TY_P484I3HBdAVxkuQGMZ56r1cKnKlUdaBeDiu3T9BB7HLa1MoRVhab3lHzlUVkwEy2oECzDeaEr2xBbnWVi1pp0BvPRalcVordlkan3cfhuw6nM51zo-pR87RWmm_PCFyjGI_T4nfH228RgA:1mB2Tq:sP7YqisGyE0E4qPtjhwEN-22Epb0-WA2Qzpd87Tbu7Y",
+      "expire_date": "2021-08-17T22:01:46.767Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "np3vfu68ti175x5m4abbiklm229wm5qs",
+    "fields": {
+      "session_data": ".eJxVjE0OgjAQhe8ya9LQllJxp645A5nODIIiGAoLY7y7JWHD7v18730hfl5hGuAMl_oGGbznniQ551RVJB9XIokRzi0OUTJocF26Zo0yNz0nTsMhC0hPGbeCHzjeJ0XTuMx9UBui9jaqemIZrjt7OOgwdmltc62ZijKUUrH3zglbZGs8aqSkyRYUbJmzb0vXsvEazSlQXlhvjBYPvz-fZEX0:1lvMz6:YRIUKA34FZBl5xeoxeKqEIBrUv_M9ECjvm48_3n4A8U",
+      "expire_date": "2021-07-05T16:41:16.083Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "orn8mms4k4sma5ze14hgz0asm1u72mdq",
+    "fields": {
+      "session_data": ".eJxVjs0OgjAMx99lZ7OwDTbxpjdNeAbStUVQBEPhYIzv7kg46O3_1V_6VjUsc1svwlPdkTooo3a_WQS887AWdIPhOmoch3nqol4nemtFVyNxf9q2f4AWpE3XLjOGMPfRc0khFAWTA3I2gAFMGl2O0fmMQuOLhmwwYPcRs9wFaw2HBJXXI459Yl2q8zH559QhJ2tL7devZUFkEXVooBf-fAGyS0Y_:1luF4Y:NAX4KGNffyEjlgkhRUrLy8DqfPDQubJyGDe15ZJxl1s",
+      "expire_date": "2021-07-02T14:02:14.687Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "oru6i8brzvq8sm0y16lophw7fefvslea",
+    "fields": {
+      "session_data": ".eJxVjDsOwjAQRO_iGln-L1DS5wzWetfBAWRLcVIh7k4ipYBuNO_NvEXEdSlx7XmOE4ur0OL02yWkZ6474AfWe5PU6jJPSe6KPGiXQ-P8uh3u30HBXra1VVozuZBCvjCA95ktsjWAGmnLZB0lGxTDGPzIBjSacyLlLBijM4jPF-wPN-s:1mEWz8:2yAxsiMSJbsKfwJgfof3i8jjdkts-QFeQvffS9HOY8M",
+      "expire_date": "2021-08-27T13:12:30.342Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "xcs5q4k6egiza8a6dpzc1f50rfxbo5nl",
+    "fields": {
+      "session_data": ".eJxVjDsOwjAQRO_iGln-L1DS5wzWetfBAWRLcVIh7k4ipYBuNO_NvEXEdSlx7XmOE4ur0OL02yWkZ6474AfWe5PU6jJPSe6KPGiXQ-P8uh3u30HBXra1VVozuZBCvjCA95ktsjWAGmnLZB0lGxTDGPzIBjSacyLlLBijM4jPF-wPN-s:1mD9RW:dwpEch2ANu1qVe3nGXfBufZ3vWv3YCMDhATqDNAejfo",
+      "expire_date": "2021-08-23T17:52:06.852Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "xd32rnucahpvd5lig915590mor35duog",
+    "fields": {
+      "session_data": ".eJxVjDEPwiAQhf8LsyEFCmhHV2PiYhwbuLvaai0GymCM_12adNDt3n3vfW_Wujz3bU4U2wFZwwTb_P68gztNC8Cbm66BQ5jmOHi-VPhKEz8GpHG_dv8EvUt9WatKCITaeEM7tFZrQuVQSeuEg3KDqsErU6HtjO5QWuHk1kNVKyulIFuk6fXwYSyu8-lyKPkZB6ASteBCLzwDUEqsmWOmzxdxcUYU:1m9VaY:F_175ETdhndM3w8pP3eBuLWGSsB1r6mmfktuH4pobbM",
+      "expire_date": "2021-08-13T16:42:22.637Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "znz2qk78y1520nlj0v0ai3l4i02ijnkr",
+    "fields": {
+      "session_data": ".eJxVjDsOwjAQRO_iGln-L1DS5wzWetfBAWRLcVIh7k4ipYBuNO_NvEXEdSlx7XmOE4ur0OL02yWkZ6474AfWe5PU6jJPSe6KPGiXQ-P8uh3u30HBXra1VVozuZBCvjCA95ktsjWAGmnLZB0lGxTDGPzIBjSacyLlLBijM4jPF-wPN-s:1lzIcv:VMafyfWPanKii54Mt-J2Igqs9ZXG7K3rB_ptd9fsIC8",
+      "expire_date": "2021-07-16T12:50:37.443Z"
+    }
+  }
+]

@@ -1,0 +1,50 @@
+{% extends './layout/stock_watcher_base.html' %}
+{% block content %}
+
+{% if alert %}
+  <div class="alert alert-success" role="alert">
+    {{ alert }}
+  </div>
+{% endif %}
+
+{% if symbol %}
+ Ticker {{ request.session.symbol }} - ${{ request.session.price }}
+   {% else %}
+   No Symbol context
+{% endif %}
+
+{% if form %}
+  <form action="{% url 'mainApp:watch_stock' symbol=request.session.symbol price=request.session.price %}" method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <input type="submit" value="Submit"/>
+  </form>
+{% endif %}
+{{request.session.success}}
+
+{% if request.session.success %}
+  <div class="alert">
+    Stock Alert Created
+  </div>
+{% endif %}
+
+{% if ticker_watchers %}
+  <p>
+    Current Alerts
+  </p>
+
+    <ul>
+    {% for watcher in ticker_watchers %}
+      <li>
+        Symbol: {{ watcher.symbol }} <br />
+        Price: ${{ watcher.current_price }} <br />
+        Min: ${{ watcher.min_price }} <br />
+        Max: ${{ watcher.max_price }} <br />
+        Last updated: {{ watcher.last_updated }}
+      </li>
+      <br />
+    {% endfor %}
+    </ul>
+{% endif %}
+
+{% endblock %}
