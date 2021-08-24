@@ -69,22 +69,25 @@ class LivePriceUpdate():
       ticker = get_object_or_404(Ticker, symbol=self.symbol)
       return ticker['price']
     except:
-      price = self.get_quote_from_yahoo()
-      return price
+      return self.get_quote_from_yahoo()
 
   # GET Single FREE_REALTIME YAHOOFINANCES PYPI
   def get_quote_from_yahoo(self):
     yahoo_financials = YahooFinancials(self.symbol)
-
     data = yahoo_financials.get_stock_price_data(reformat=False)
-    formatted_price = data[self.symbol]['regularMarketPrice']['fmt']
 
+    formatted_price = ''
+    try:
+      formatted_price = data[self.symbol]['regularMarketPrice']['fmt']
+    except:
+      formatted_price = '0'
     #  TODO  create Ticker if it does not exist
     # try:
     #   ticker = get_object_or_404(Ticker, symbol=self.symbol)
     # except Http404:
     #   Ticker.objects.create(symbol=)
     return formatted_price
+
 
   # GET Multiple FREE_REALTIME YAHOOFINANCES PYPI
   def get_quotes_from_yahoo(self):

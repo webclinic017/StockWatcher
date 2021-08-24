@@ -26,7 +26,7 @@ SECRET_KEY = os.environ['STOCK_WATCHER_SECRET_KEY']
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1', '3171-2607-fea8-3f60-6ff0-da0-4db8-a7e9-989f.ngrok.io']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'c6e9-2607-fea8-3f60-6ff0-7c89-22c4-476-2dbd.ngrok.io']
 
 
 # Application definition
