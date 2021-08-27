@@ -26,7 +26,7 @@ SECRET_KEY = os.environ['STOCK_WATCHER_SECRET_KEY']
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'c6e9-2607-fea8-3f60-6ff0-7c89-22c4-476-2dbd.ngrok.io']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', '69ac-2607-fea8-3f60-6ff0-216-3eff-fe5e-9b78.ngrok.io']
 
 
 # Application definition
@@ -107,7 +107,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'US/Eastern'
 
 USE_I18N = True
 
@@ -155,7 +155,7 @@ LOGGING = {
         },
         'stockWatcher_handler': {
             'class': 'logging.FileHandler',
-            'filename': 'stockWatcher/Logs/stocks.debug.log',
+            'filename': 'StockWatcher/Logs/stocks.debug.log',
             'formatter': 'verbose'
         },
     },
@@ -167,6 +167,6 @@ LOGGING = {
     }
 }
 
-CELERY_BROKER_URL = 'amqp://localhost'
-# CELERY_BROKER_URL = os.environ['CELERY_BROKER_URL']
+#CELERY_BROKER_URL = 'amqp://localhost'
+CELERY_BROKER_URL = os.environ['CELERY_BROKER_URL']
 

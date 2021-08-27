@@ -4,14 +4,14 @@ import os
 
 from django.conf import settings
 from django.core.exceptions import ImproperlyConfigured
-from dotenv import load_dotenv
+#from dotenv import load_dotenv
 from twilio.rest import Client
 
 logger = logging.getLogger(__name__)
 
-dotenv_path = '/.env'
-logger.debug(f'Reading .env file at: {dotenv_path}')
-load_dotenv(dotenv_path=dotenv_path)
+
+#logger.debug(f'Reading .env file at: {dotenv_path}')
+#load_dotenv(dotenv_path=dotenv_path)
 
 
 MESSAGE = """[This is a test] ALERT! It appears the server is having issues.

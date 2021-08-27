@@ -4,7 +4,7 @@ from django.http.response import Http404
 import requests
 import websocket
 import finnhub
-import pandas as pd
+
 import yfinance as yf
 from StockWatcher.lib.helpers.stockWatcher.Messaging.Messaging import TwilioMessenger
 
@@ -27,10 +27,10 @@ finnhub_headers = {
 }
 
 # IEX STOCK DATA
-import pandas as pd
+
 from iexfinance.stocks import Stock
 from datetime import datetime
-import matplotlib.pyplot as plt
+
 from iexfinance.stocks import get_historical_data
 
 # TWILIO MESSAGING SERVICE
@@ -225,8 +225,8 @@ class LivePriceUpdate():
     print(res)
 
     #Convert to Pandas Dataframe
-    import pandas as pd
-    print(pd.DataFrame(res))
+   # import pandas as pd
+    # print(pd.DataFrame(res))
 
   def get_bars(self):
     d30_days_ago = (datetime.now() - timedelta(30)).strftime('%Y-%m-%d')
