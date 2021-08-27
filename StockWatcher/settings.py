@@ -155,7 +155,7 @@ LOGGING = {
         },
         'stockWatcher_handler': {
             'class': 'logging.FileHandler',
-            'filename': 'stockWatcher/Logs/stocks.debug.log',
+            'filename': 'StockWatcher/Logs/stocks.debug.log',
             'formatter': 'verbose'
         },
     },
