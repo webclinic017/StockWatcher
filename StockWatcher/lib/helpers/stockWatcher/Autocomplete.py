@@ -1,13 +1,16 @@
 import json
 
 import requests
-from StockWatcher.lib.data.ticks import tickers
 import re
 import csv
 import os
 
 FINNHUB_KEY = os.environ['FINNHUB_KEY']
 
+tickers = []
+
+with open('stockWatcher/lib/data/ticks.json', 'r') as f:
+  tickers = f.read()
 class TickerAutocomplete():
   def __init__(self, query = '', results = [], symbols = []):
     self.query = query
@@ -30,6 +33,11 @@ class TickerAutocomplete():
     self.symbols = symbols
     return results
 
+  def tickr_autocomplete(self, query):
+    matching_ticker = filter(lambda ticker: ticker['symbol'] == query, tickers)
+
+    return next(matching_ticker)
+
   def get_results(self, query = ''):
     if query:
       self.tickr_autocomplete(query)
@@ -44,12 +52,11 @@ class TickerAutocomplete():
     else:
       return self.symbols
 
-  def refresh_symbols():
+  def refresh_symbols(self):
     r = requests.get('https://finnhub.io/api/v1/stock/symbol?exchange=US&token={}'.format(FINNHUB_KEY))
 
     data = []
     for i, ticker in enumerate(r.json()):
-      print(ticker)
       tick = {}
       tick['id'] = i
       tick['symbol'] = ticker['symbol']
@@ -57,10 +64,9 @@ class TickerAutocomplete():
 
       data.append(tick)
 
-    f = open('aPollingApp/data/ticks.py', 'w+')
+    f = open('StockWatcher/lib/data/ticks.json', 'w+')
     f.truncate(0)
-    f.write('tickers = ')
-    f.write(json.dumps(data))
+    f.write(f'{json.dumps(data)}')
     f.close()
 
     return r.json()
@@ -71,3 +77,5 @@ class TickerAutocomplete():
 
     return next(matching_ticker)
 
+
+a = TickerAutocomplete().refresh_symbols()

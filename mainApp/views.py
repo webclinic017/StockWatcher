@@ -64,6 +64,18 @@ class TickrAutocomplete(FormView):
 
     return JsonResponse(context)
 
+def AutoCompleteSearch(request):
+
+  if request.method == 'GET':
+    query = request.GET.get('query', '')
+
+    autocomplete = TickerAutocomplete(query=query)
+    results = autocomplete.get_results(query)
+    symbols = autocomplete.get_symbols(query)
+
+    context = { 'data': results }
+
+    return JsonResponse(context)
 class LivePriceUpdateView(View):
   def get(self, request):
     symbol = request.GET['symbol']
