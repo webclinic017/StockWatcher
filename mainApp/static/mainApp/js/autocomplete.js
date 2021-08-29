@@ -35,15 +35,16 @@ document.addEventListener("DOMContentLoaded", function() {
       formData.append("query", input.value)
       formData.append("csrfmiddlewaretoken", token)
 
-      await axios.post('/', formData)
+      // if filter (search by name)
+      // param = '&include_name_in_search='true'
+      await axios.get(`/search?query=${input.value}`)
       .then(({ data: { data }}) => {
-
-        for (ticker in data) {
+        for (const ticker of data) {
           const el = document.createElement('div')
-          const symbol = data[ticker]['symbol']
+          const symbol = ticker.split('-')[0].replace(' ', '')
 
           el.classList.add('symbol')
-          el.innerText = symbol + ' - ' + data[ticker]['name']
+          el.innerText = ticker
           el.setAttribute('data-value', symbol)
           el.addEventListener('click', liveUpdate)
 
@@ -67,7 +68,8 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // Protected route (Must be superuser)
       return await axios.get(`/search/live_update/?symbol=${symbol}`)
-      .then(async ({data}) => {
+      .then(({data}) => {
+        print(data)
         const el = document.createElement('div')
         const previousElement = document.querySelector('.current-price')
         const loader = document.querySelector('.loader')

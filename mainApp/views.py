@@ -1,6 +1,7 @@
 import json
 import re
 from django.db.models.query_utils import Q
+from django.urls.conf import include
 from StockWatcher.lib.helpers.stockWatcher.Autocomplete import TickerAutocomplete
 from StockWatcher.lib.helpers.stockWatcher.LiveUpdate import LivePriceUpdate
 from StockWatcher.lib.helpers.stockWatcher.Messaging.twilio_notifications.middleware import MessageClient
@@ -64,20 +65,106 @@ class TickrAutocomplete(FormView):
 
     return JsonResponse(context)
 
+def AutoCompleteSearch(request):
+
+  if request.method == 'GET':
+    query = request.GET.get('query', '')
+    include_name_in_search = request.GET.get('include_name_in_search', False)
+
+    print(include_name_in_search)
+    autocomplete = TickerAutocomplete(query=query)
+    autocomplete.autocomplete_search(query, include_name_in_search=include_name_in_search)
+    # symbols = autocomplete.get_symbols(query)
+
+    context = { 'results': autocomplete.autocomplete_results }
+
+    return JsonResponse(context)
 class LivePriceUpdateView(View):
   def get(self, request):
     symbol = request.GET['symbol']
 
-    if self.request.user.is_superuser:
-      live_update = LivePriceUpdate(symbol)
-      price = live_update.get_quote_from_yahoo()
-      # live_update.subscribe()
-      live_update.get_bars()
+    # if self.request.user.is_superuser:
+    live_update = LivePriceUpdate(symbol)
+    price = live_update.get_quote_from_yahoo()
+    # live_update.subscribe()
+    # live_update.get_bars()
 
-      return JsonResponse({ 'price': price })
-    else:
-      return JsonResponse({ 'error': 'Please sign in as a superuser.' })
 
+    return JsonResponse({ 'price': price })
+  # else:
+  #   return JsonResponse({ 'error': 'Please sign in as a superuser.' })
+
+
+def StockSummary(request):
+  if request.method == 'GET':
+    symbol = request.GET.get('symbol')
+
+    live_update = LivePriceUpdate(symbol)
+    stock_data = live_update.yahoo_get_summary()
+    current_price = live_update.get_quote_from_yahoo()
+
+    return JsonResponse({
+      # # region
+      # f'{symbol}': {
+      #   'previousClose': 40.31,
+      #   'regularMarketOpen': 40.01,
+      #   'twoHundredDayAverage': 25.712086,
+      #   'trailingAnnualDividendYield': 0.00074423215,
+      #   'payoutRatio': 0,
+      #   'volume24Hr': None,
+      #   'regularMarketDayHigh': 41.58,
+      #   'navPrice': None,
+      #   'averageDailyVolume10Day': 114048742,
+      #   'totalAssets': None,
+      #   'regularMarketPreviousClose': 40.31,
+      #   'fiftyDayAverage': 36.67657,
+      #   'trailingAnnualDividendRate': 0.03,
+      #   'open': 40.01,
+      #   'toCurrency': None,
+      #   'averageVolume10days': 114048742,
+      #   'expireDate': '-',
+      #   'yield': None,
+      #   'algorithm': None,
+      #   'dividendRate': None,
+      #   'exDividendDate': '2020-03-06',
+      #   'beta': 1.308768,
+      #   'circulatingSupply': None,
+      #   'startDate': '-',
+      #   'regularMarketDayLow': 39.39,
+      #   'priceHint': 2,
+      #   'currency': 'USD',
+      #   'regularMarketVolume': 71286769,
+      #   'lastMarket': None,
+      #   'maxSupply': None,
+      #   'openInterest': None,
+      #   'marketCap': 20964397056,
+      #   'volumeAllCurrencies': None,
+      #   'strikePrice': None,
+      #   'averageVolume': 149067628,
+      #   'priceToSalesTrailing12Months': 23.95931,
+      #   'dayLow': 39.39,
+      #   'ask': 40.89,
+      #   'ytdReturn': None,
+      #   'askSize': 1200,
+      #   'volume': 71286769,
+      #   'fiftyTwoWeekHigh': 72.62,
+      #   'forwardPE': -56.72222,
+      #   'maxAge': 1,
+      #   'fromCurrency': None,
+      #   'fiveYearAvgDividendYield': None,
+      #   'fiftyTwoWeekLow': 1.91,
+      #   'bid': 40.9,
+      #   'tradeable': False,
+      #   'dividendYield': None,
+      #   'bidSize': 800,
+      #   'dayHigh': 41.58
+      # },
+      # # endregion
+      # # 'current_price': "current_price"
+
+      **stock_data[symbol],
+      'currentPrice': current_price
+      })
 
 
 class WatchStockView(View):

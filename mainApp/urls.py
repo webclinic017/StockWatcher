@@ -21,6 +21,8 @@ from . import views
 app_name = 'mainApp'
 
 urlpatterns = [
+    path("", views.AutoCompleteSearch, name="autocomplete"),
+    path("summary/", views.StockSummary, name="stockSummary"),
     # path('', IndexView.as_view(), name="index"),
     # path("", views.VoteForCatsView.as_view(), name="home"),
     # path("", views.TickrAutocomplete.as_view(), name="search"),

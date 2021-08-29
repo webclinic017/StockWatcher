@@ -26,12 +26,12 @@ SECRET_KEY = os.environ['STOCK_WATCHER_SECRET_KEY']
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'c6e9-2607-fea8-3f60-6ff0-7c89-22c4-476-2dbd.ngrok.io']
-
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'c6e9-2607-fea8-3f60-6ff0-7c89-22c4-476-2dbd.ngrok.io', 'localhost:3000', 'http://127.0.0.1:3000', 'http://localhost:3000/home']
 
 # Application definition
 
 INSTALLED_APPS = [
+    'corsheaders',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -44,6 +44,7 @@ INSTALLED_APPS = [
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
+    'corsheaders.middleware.CorsMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
@@ -170,3 +171,12 @@ LOGGING = {
 CELERY_BROKER_URL = 'amqp://localhost'
 # CELERY_BROKER_URL = os.environ['CELERY_BROKER_URL']
 
+
+# CORS_ORIGIN_ALLOW_ALL = True
+
+CORS_ALLOWED_ORIGINS = [
+    "http://localhost:3000",
+    "http://127.0.0.1:3000"
+]
+
+CSRF_COOKIE_NAME = "csrftoken"

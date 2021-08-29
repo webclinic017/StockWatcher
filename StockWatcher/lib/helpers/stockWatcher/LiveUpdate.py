@@ -42,6 +42,8 @@ class LivePriceUpdate():
     self.tickers = Ticker.objects.all()
     self.ticker_watchers = TickerWatcher.objects.all()
 
+    self.yahoo_financials = YahooFinancials(self.symbol)
+
   def syncProdData(self):
     prod_url = 'https://vast-crag-37829.herokuapp.com/search/'
     tickers_url = prod_url + 'tickers/'
@@ -71,21 +73,20 @@ class LivePriceUpdate():
     except:
       return self.get_quote_from_yahoo()
 
+  def yahoo_get_summary(self):
+    return self.yahoo_financials.get_summary_data()
+
   # GET Single FREE_REALTIME YAHOOFINANCES PYPI
   def get_quote_from_yahoo(self):
-    yahoo_financials = YahooFinancials(self.symbol)
-    data = yahoo_financials.get_stock_price_data(reformat=False)
+    # yahoo_financials = YahooFinancials(self.symbol)
+    data = self.yahoo_financials.get_stock_price_data(reformat=False)
 
     formatted_price = ''
     try:
       formatted_price = data[self.symbol]['regularMarketPrice']['fmt']
     except:
       formatted_price = '0'
-    #  TODO  create Ticker if it does not exist
-    # try:
-    #   ticker = get_object_or_404(Ticker, symbol=self.symbol)
-    # except Http404:
-    #   Ticker.objects.create(symbol=)
+
     return formatted_price
 
 
@@ -112,8 +113,6 @@ class LivePriceUpdate():
     price = 0
 
     for count, symbol in enumerate(yahoo_data):
-
-
       try:
         ticker_data = yahoo_data[symbol]
         if ticker_data['regularMarketPrice']:
