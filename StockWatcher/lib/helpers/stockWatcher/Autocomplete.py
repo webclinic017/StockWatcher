@@ -50,7 +50,7 @@ class TickerAutocomplete():
       full_name =  f'{ticker_symbol} - {ticker_name}'
 
       # if query.upper() in ticker['symbol'] or (include_name_in_search == 'true' and query in ticker['name']):
-      if re.match(r'^' + query.upper(), ticker['symbol']) or (include_name_in_search == 'true' and query in ticker['name']):
+      if re.match(r'^' + query.upper(), ticker['symbol']) or (include_name_in_search == 'true' and re.match(r'^' + query.upper(), ticker['name'])):
         if full_name not in suggestions:
           suggestions.append(full_name)
 

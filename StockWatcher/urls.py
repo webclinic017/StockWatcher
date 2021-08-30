@@ -29,6 +29,7 @@ router.register(r'ticker_watchers', views.TickerWatcherViewSet)
 
 urlpatterns = [
     path('', include(router.urls)),
+    path("config/firebase/", views.FirebaseConfig, name="fbconfig"),
     path("api-auth/", include("rest_framework.urls"), name="rest_framework"),
     path("admin/", admin.site.urls),
     path("stock/", include("mainApp.urls")),

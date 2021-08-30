@@ -26,7 +26,7 @@ SECRET_KEY = os.environ['STOCK_WATCHER_SECRET_KEY']
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'c6e9-2607-fea8-3f60-6ff0-7c89-22c4-476-2dbd.ngrok.io', 'localhost:3000', 'http://127.0.0.1:3000', 'http://localhost:3000/home']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'd546-2607-fea8-3f60-6ff0-d066-1a43-dba9-77ac.ngrok.io', 'localhost:3000', 'http://127.0.0.1:3000', 'http://localhost:3000']
 
 # Application definition
 
@@ -179,7 +179,8 @@ CELERY_BROKER_URL = 'amqp://localhost'
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
-    "http://127.0.0.1:3000"
+    "http://127.0.0.1:3000",
+    "https://jaybenaim.github.io"
 ]
 
 # CORS_ALLOW_CREDENTIALS = True
@@ -202,9 +203,18 @@ CSRF_COOKIE_NAME = "csrftoken"
 REST_FRAMEWORK = {
     # Use Django's standard `django.contrib.auth` permissions,
     # or allow read-only access for unauthenticated users.
+#     'DEFAULT_AUTHENTICATION_CLASSES': (
+#        'rest_framework.authentication.TokenAuthentication',
+#    ),
     'DEFAULT_PERMISSION_CLASSES': [
         'rest_framework.permissions.DjangoModelPermissionsOrAnonReadOnly'
     ],
+      'DEFAULT_AUTHENTICATION_CLASSES': (
+        'rest_framework.authentication.TokenAuthentication',
+        'rest_framework.authentication.SessionAuthentication',
+    ),
+    # 'DEFAULT_AUTHENTICATION_CLASSES': [],
+    # 'DEFAULT_PERMISSION_CLASSES': [],
     'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',
     'PAGE_SIZE': 20
 }

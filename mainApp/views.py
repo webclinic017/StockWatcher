@@ -15,7 +15,19 @@ from django.shortcuts import get_object_or_404, render
 from django.contrib.auth.models import User, Group
 from rest_framework import generics, viewsets, permissions, mixins
 from mainApp.serializers import TickerSerializer, TickerWatcherSerializer, UserSerializer, GroupSerializer
+import os
 
+def FirebaseConfig(request):
+  return JsonResponse({
+    "apiKey": os.environ['REACT_APP_FIREBASE_API_KEY'],
+    "authDomain": os.environ['REACT_APP_FIREBASE_AUTH_DOMAIN'],
+    "databaseURL": os.environ['REACT_APP_FIREBASE_DATABASE_URL'],
+    "projectId": os.environ['REACT_APP_FIREBASE_PROJECT_ID'],
+    "storageBucket": os.environ['REACT_APP_FIREBASE_REACT_APP_STORAGE_BUCKET'],
+    "messagingSenderId": os.environ['REACT_APP_FIREBASE_MESSAGING_SENDER_ID'],
+    "appId": os.environ['REACT_APP_FIREBASE_APP_ID'],
+    "measurementId": os.environ['REACT_APP_FIREBASE_MEASUREMENT_ID'],
+  })
 class UserViewSet(viewsets.ModelViewSet):
   """
   API - Users
@@ -39,14 +51,14 @@ class TickerviewSet(viewsets.ModelViewSet):
 
   queryset = Ticker.objects.all()
   serializer_class = TickerSerializer
-  permission_classes = [permissions.IsAuthenticated]
+  # permission_classes = [permissions.IsAuthenticated]
 class TickerWatcherViewSet(viewsets.ModelViewSet):
   """
   API - All Ticker Watchers
   """
-  permission_classes = [permissions.IsAuthenticated]
   queryset = TickerWatcher.objects.all()
   serializer_class = TickerWatcherSerializer
+  # permission_classes = [permissions.IsAuthenticated]
 
   def get_queryset(self):
       email = self.request.GET.get('email')
@@ -257,14 +269,12 @@ def TestView(request):
       return HttpResponseBadRequest(content='Error')
 
 
-
 def AutoCompleteSearch(request):
 
   if request.method == 'GET':
     query = request.GET.get('query', '')
     include_name_in_search = request.GET.get('include_name_in_search', False)
 
-    print(include_name_in_search)
     autocomplete = TickerAutocomplete(query=query)
     autocomplete.autocomplete_search(query, include_name_in_search=include_name_in_search)
     # symbols = autocomplete.get_symbols(query)
@@ -280,9 +290,9 @@ def StockSummary(request):
   if request.method == 'GET':
     symbol = request.GET.get('symbol')
 
-    # live_update = LivePriceUpdate(symbol)
-    # stock_data = live_update.yahoo_get_summary()
-    # current_price = live_update.get_quote_from_yahoo()
+    live_update = LivePriceUpdate(symbol)
+    stock_data = live_update.yahoo_get_summary()
+    current_price = live_update.get_quote_from_yahoo()
 
     return JsonResponse({
       "status": 200,
@@ -341,10 +351,10 @@ def StockSummary(request):
       'bidSize': 800,
       'dayHigh': 41.58,
       # endregion
-      'currentPrice': 40.01
+      # 'currentPrice': 40.01
 
-      # **stock_data[symbol],
-      # 'currentPrice': current_price,
+      **stock_data[symbol],
+      'currentPrice': current_price,
       })
 
 def WatchStock(request):
@@ -358,8 +368,6 @@ def WatchStock(request):
     max = json_data['max']
 
     current_ticker = {}
-
-    print(json_data)
 
     if user == None:
       return JsonResponse({
