@@ -19,10 +19,18 @@ from django.urls.conf import include
 from django.conf.urls.static import static
 from mainApp import views
 from django.conf import settings
+from rest_framework import routers
+
+router = routers.DefaultRouter()
+router.register(r'users', views.UserViewSet)
+router.register(r'groups', views.GroupViewSet)
+router.register(r'tickers', views.TickerviewSet)
+router.register(r'ticker_watchers', views.TickerWatcherViewSet)
 
 urlpatterns = [
-    path("", views.TickrAutocomplete.as_view(), name="search"),
-    path('admin/', admin.site.urls),
-    path("search/", include("mainApp.urls")),
-]+ static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
-
+    path('', include(router.urls)),
+    path("api-auth/", include("rest_framework.urls"), name="rest_framework"),
+    path("admin/", admin.site.urls),
+    path("stock/", include("mainApp.urls")),
+    # path("", views.TickrAutocomplete.as_view(), name="search"),
+] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)

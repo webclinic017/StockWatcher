@@ -20,15 +20,17 @@ from . import views
 
 app_name = 'mainApp'
 
+
 urlpatterns = [
-    path("", views.AutoCompleteSearch, name="autocomplete"),
-    path("summary/", views.StockSummary, name="stockSummary"),
+    path("search/", views.AutoCompleteSearch, name="autocomplete"),
+    path("search/summary/", views.StockSummary, name="stockSummary"),
+    path('watch/', views.WatchStock, name="watchStock"),
+    path('watchers/', views.Watchers, name="watchers"),
     # path('', IndexView.as_view(), name="index"),
     # path("", views.VoteForCatsView.as_view(), name="home"),
     # path("", views.TickrAutocomplete.as_view(), name="search"),
     path("live_update/", views.LivePriceUpdateView.as_view(), name="live_update"),
-    path('watch/<symbol>/', views.WatchStockView.as_view(), name="watch"),
-    path('watch_stock/<symbol>/<price>', views.WatchStockFormView.as_view(), name="watch_stock"),
+    path('watch_stock', views.WatchStockFormView.as_view(), name="watch_stock"),
     path('send_message/', views.SendMessageFormView.as_view(), name="send_message"),
     path('test/', views.TestView, name="test"),
 ]
