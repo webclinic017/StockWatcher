@@ -206,8 +206,13 @@ class LivePriceUpdate():
     for symbol in watcher_list:
       tick = watcher_list[symbol]
       message += f'''
-          Price Alert({tick['min_price']}-{tick['max_price']}): The current price of {tick['symbol']} is {tick['price']}
-          '''
+        ---------------------
+
+        --------------
+        Price Alert!!!
+        --------------
+        {tick['symbol']} - (MIN: {tick['min_price']} - MAX: {tick['max_price']})
+        Current Price {tick['price']}'''
 
     if len(message) > 0:
       twilio.send_message_to_admin(message)
